@@ -1298,3 +1298,2270 @@
 2020-08-24 16:31:14,601:INFO:display_container: 2
 2020-08-24 16:31:14,601:INFO:<catboost.core.CatBoostRegressor object at 0x7f4d386ea6a0>
 2020-08-24 16:31:14,601:INFO:compare_models() succesfully completed......................................
+2020-09-01 05:56:33,685:INFO:PyCaret Regression Module
+2020-09-01 05:56:33,685:INFO:version 2.1.2
+2020-09-01 05:56:33,685:INFO:Initializing setup()
+2020-09-01 05:56:33,686:INFO:USI: 2570
+2020-09-01 05:56:33,686:INFO:setup(data=(5400, 8), target=Price, train_size=0.7, sampling=True, sample_estimator=None, categorical_features=None, categorical_imputation=constant, ordinal_features=None,
+                    high_cardinality_features=None, high_cardinality_method=frequency, numeric_features=None, numeric_imputation=mean, date_features=None, ignore_features=None, normalize=False,
+                    normalize_method=zscore, transformation=False, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear,
+                    pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None, remove_outliers=False, outliers_threshold=0.05,
+                    remove_multicollinearity=False, multicollinearity_threshold=0.9, remove_perfect_collinearity=False, create_clusters=False, cluster_iter=20,
+                    polynomial_features=False, polynomial_degree=2, trigonometry_features=False, polynomial_threshold=0.1, group_features=None,
+                    group_names=None, feature_selection=False, feature_selection_threshold=0.8, feature_interaction=False, feature_ratio=False, interaction_threshold=0.01, transform_target=False,
+                    transform_target_method=box-cox, data_split_shuffle=True, folds_shuffle=False, n_jobs=-1, html=True, session_id=None, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_profile=False, log_data=False, silent=False, verbose=True, profile=False)
+2020-09-01 05:56:33,686:INFO:Checking environment
+2020-09-01 05:56:33,686:INFO:python_version: 3.7.3
+2020-09-01 05:56:33,686:INFO:python_build: ('default', 'Jun 11 2019 01:11:15')
+2020-09-01 05:56:33,686:INFO:machine: x86_64
+2020-09-01 05:56:33,688:INFO:platform: Linux-4.19.76+-x86_64-with-debian-9.12
+2020-09-01 05:56:33,690:WARNING:cannot find psutil installation. memory not traceable. Install psutil using pip to enable memory logging. 
+2020-09-01 05:56:33,690:INFO:Checking libraries
+2020-09-01 05:56:33,690:INFO:pd==1.0.5
+2020-09-01 05:56:33,691:INFO:numpy==1.19.0
+2020-09-01 05:56:34,220:INFO:sklearn==0.23.1
+2020-09-01 05:56:34,963:INFO:xgboost==1.2.0
+2020-09-01 05:56:35,079:INFO:lightgbm==3.0.0
+2020-09-01 05:56:35,339:INFO:catboost==0.24.1
+2020-09-01 05:56:36,201:INFO:mlflow==1.11.0
+2020-09-01 05:56:36,202:INFO:Checking Exceptions
+2020-09-01 05:56:36,203:INFO:Preloading libraries
+2020-09-01 05:56:36,203:INFO:Preparing display monitor
+2020-09-01 05:56:36,242:INFO:Importing libraries
+2020-09-01 05:56:39,099:INFO:Declaring global variables
+2020-09-01 05:56:39,100:INFO:Copying data for preprocessing
+2020-09-01 05:56:39,129:INFO:Declaring preprocessing parameters
+2020-09-01 05:56:39,129:INFO:Importing preprocessing module
+2020-09-01 05:56:41,612:INFO:Creating preprocessing pipeline
+2020-09-01 05:56:51,885:INFO:Preprocessing pipeline created successfully
+2020-09-01 05:56:51,886:INFO:No inverse transformer found
+2020-09-01 05:56:51,886:INFO:Creating grid variables
+2020-09-01 05:56:51,891:INFO:Creating global containers
+2020-09-01 05:56:52,062:INFO:create_model_container: 0
+2020-09-01 05:56:52,063:INFO:master_model_container: 0
+2020-09-01 05:56:52,063:INFO:display_container: 0
+2020-09-01 05:56:52,063:INFO:setup() succesfully completed......................................
+2020-09-01 05:57:13,772:INFO:Initializing compare_models()
+2020-09-01 05:57:13,772:INFO:compare_models(exclude=None, include=None, fold=10, round=4, sort=R2, n_select=1, turbo=True, verbose=True)
+2020-09-01 05:57:13,772:INFO:Checking exceptions
+2020-09-01 05:57:13,772:INFO:Preloading libraries
+2020-09-01 05:57:13,772:INFO:Preparing display monitor
+2020-09-01 05:57:13,868:INFO:Copying training dataset
+2020-09-01 05:57:13,874:INFO:Importing libraries
+2020-09-01 05:57:13,968:INFO:Importing untrained models
+2020-09-01 05:57:13,969:INFO:Import successful
+2020-09-01 05:57:13,996:INFO:Defining folds
+2020-09-01 05:57:13,997:INFO:Declaring metric variables
+2020-09-01 05:57:13,997:INFO:Initializing Linear Regression
+2020-09-01 05:57:14,021:INFO:Initializing Fold 1
+2020-09-01 05:57:14,023:INFO:Total runtime is 0.0004343271255493164 minutes
+2020-09-01 05:57:14,050:INFO:Fitting Model
+2020-09-01 05:57:14,100:INFO:Evaluating Metrics
+2020-09-01 05:57:14,136:INFO:No inverse transformer found
+2020-09-01 05:57:14,136:INFO:Compiling Metrics
+2020-09-01 05:57:14,223:INFO:Initializing Fold 2
+2020-09-01 05:57:14,224:INFO:Total runtime is 0.0037906368573506675 minutes
+2020-09-01 05:57:14,258:INFO:Fitting Model
+2020-09-01 05:57:14,269:INFO:Evaluating Metrics
+2020-09-01 05:57:14,288:INFO:No inverse transformer found
+2020-09-01 05:57:14,289:INFO:Compiling Metrics
+2020-09-01 05:57:14,392:INFO:Initializing Fold 3
+2020-09-01 05:57:14,394:INFO:Total runtime is 0.006612992286682129 minutes
+2020-09-01 05:57:14,429:INFO:Fitting Model
+2020-09-01 05:57:14,452:INFO:Evaluating Metrics
+2020-09-01 05:57:14,465:INFO:No inverse transformer found
+2020-09-01 05:57:14,465:INFO:Compiling Metrics
+2020-09-01 05:57:14,552:INFO:Initializing Fold 4
+2020-09-01 05:57:14,554:INFO:Total runtime is 0.009281412760416666 minutes
+2020-09-01 05:57:14,596:INFO:Fitting Model
+2020-09-01 05:57:14,620:INFO:Evaluating Metrics
+2020-09-01 05:57:14,661:INFO:No inverse transformer found
+2020-09-01 05:57:14,661:INFO:Compiling Metrics
+2020-09-01 05:57:14,745:INFO:Initializing Fold 5
+2020-09-01 05:57:14,747:INFO:Total runtime is 0.012500611941019694 minutes
+2020-09-01 05:57:14,775:INFO:Fitting Model
+2020-09-01 05:57:14,790:INFO:Evaluating Metrics
+2020-09-01 05:57:14,858:INFO:No inverse transformer found
+2020-09-01 05:57:14,858:INFO:Compiling Metrics
+2020-09-01 05:57:14,928:INFO:Initializing Fold 6
+2020-09-01 05:57:14,930:INFO:Total runtime is 0.015550641218821208 minutes
+2020-09-01 05:57:14,961:INFO:Fitting Model
+2020-09-01 05:57:14,971:INFO:Evaluating Metrics
+2020-09-01 05:57:14,977:INFO:No inverse transformer found
+2020-09-01 05:57:14,978:INFO:Compiling Metrics
+2020-09-01 05:57:15,097:INFO:Initializing Fold 7
+2020-09-01 05:57:15,098:INFO:Total runtime is 0.01835403045018514 minutes
+2020-09-01 05:57:15,127:INFO:Fitting Model
+2020-09-01 05:57:15,134:INFO:Evaluating Metrics
+2020-09-01 05:57:15,147:INFO:No inverse transformer found
+2020-09-01 05:57:15,147:INFO:Compiling Metrics
+2020-09-01 05:57:15,229:INFO:Initializing Fold 8
+2020-09-01 05:57:15,231:INFO:Total runtime is 0.02056598663330078 minutes
+2020-09-01 05:57:15,273:INFO:Fitting Model
+2020-09-01 05:57:15,289:INFO:Evaluating Metrics
+2020-09-01 05:57:15,314:INFO:No inverse transformer found
+2020-09-01 05:57:15,315:INFO:Compiling Metrics
+2020-09-01 05:57:15,414:INFO:Initializing Fold 9
+2020-09-01 05:57:15,418:INFO:Total runtime is 0.023679673671722412 minutes
+2020-09-01 05:57:15,450:INFO:Fitting Model
+2020-09-01 05:57:15,462:INFO:Evaluating Metrics
+2020-09-01 05:57:15,482:INFO:No inverse transformer found
+2020-09-01 05:57:15,482:INFO:Compiling Metrics
+2020-09-01 05:57:15,591:INFO:Initializing Fold 10
+2020-09-01 05:57:15,592:INFO:Total runtime is 0.026589226722717286 minutes
+2020-09-01 05:57:15,616:INFO:Fitting Model
+2020-09-01 05:57:15,629:INFO:Evaluating Metrics
+2020-09-01 05:57:15,650:INFO:No inverse transformer found
+2020-09-01 05:57:15,650:INFO:Compiling Metrics
+2020-09-01 05:57:15,767:INFO:Calculating mean and std
+2020-09-01 05:57:15,768:INFO:Creating metrics dataframe
+2020-09-01 05:57:15,863:INFO:Initializing Lasso Regression
+2020-09-01 05:57:15,891:INFO:Initializing Fold 1
+2020-09-01 05:57:15,893:INFO:Total runtime is 0.031596577167510985 minutes
+2020-09-01 05:57:15,921:INFO:Fitting Model
+2020-09-01 05:57:16,422:INFO:Evaluating Metrics
+2020-09-01 05:57:16,441:INFO:No inverse transformer found
+2020-09-01 05:57:16,442:INFO:Compiling Metrics
+2020-09-01 05:57:16,538:INFO:Initializing Fold 2
+2020-09-01 05:57:16,541:INFO:Total runtime is 0.04240696032842 minutes
+2020-09-01 05:57:16,573:INFO:Fitting Model
+2020-09-01 05:57:16,963:INFO:Evaluating Metrics
+2020-09-01 05:57:16,986:INFO:No inverse transformer found
+2020-09-01 05:57:16,987:INFO:Compiling Metrics
+2020-09-01 05:57:17,095:INFO:Initializing Fold 3
+2020-09-01 05:57:17,096:INFO:Total runtime is 0.05164794127146403 minutes
+2020-09-01 05:57:17,129:INFO:Fitting Model
+2020-09-01 05:57:17,232:INFO:Evaluating Metrics
+2020-09-01 05:57:17,244:INFO:No inverse transformer found
+2020-09-01 05:57:17,245:INFO:Compiling Metrics
+2020-09-01 05:57:17,328:INFO:Initializing Fold 4
+2020-09-01 05:57:17,335:INFO:Total runtime is 0.055630064010620116 minutes
+2020-09-01 05:57:17,367:INFO:Fitting Model
+2020-09-01 05:57:17,445:INFO:Evaluating Metrics
+2020-09-01 05:57:17,455:INFO:No inverse transformer found
+2020-09-01 05:57:17,456:INFO:Compiling Metrics
+2020-09-01 05:57:17,540:INFO:Initializing Fold 5
+2020-09-01 05:57:17,543:INFO:Total runtime is 0.05909756819407145 minutes
+2020-09-01 05:57:17,583:INFO:Fitting Model
+2020-09-01 05:57:17,680:INFO:Evaluating Metrics
+2020-09-01 05:57:17,694:INFO:No inverse transformer found
+2020-09-01 05:57:17,694:INFO:Compiling Metrics
+2020-09-01 05:57:17,799:INFO:Initializing Fold 6
+2020-09-01 05:57:17,804:INFO:Total runtime is 0.06340963045756022 minutes
+2020-09-01 05:57:17,824:INFO:Fitting Model
+2020-09-01 05:57:18,037:INFO:Evaluating Metrics
+2020-09-01 05:57:18,049:INFO:No inverse transformer found
+2020-09-01 05:57:18,049:INFO:Compiling Metrics
+2020-09-01 05:57:18,116:INFO:Initializing Fold 7
+2020-09-01 05:57:18,118:INFO:Total runtime is 0.06868245601654052 minutes
+2020-09-01 05:57:18,175:INFO:Fitting Model
+2020-09-01 05:57:18,521:INFO:Evaluating Metrics
+2020-09-01 05:57:18,535:INFO:No inverse transformer found
+2020-09-01 05:57:18,535:INFO:Compiling Metrics
+2020-09-01 05:57:18,668:INFO:Initializing Fold 8
+2020-09-01 05:57:18,669:INFO:Total runtime is 0.07787317832310994 minutes
+2020-09-01 05:57:18,732:INFO:Fitting Model
+2020-09-01 05:57:18,920:INFO:Evaluating Metrics
+2020-09-01 05:57:18,970:INFO:No inverse transformer found
+2020-09-01 05:57:18,971:INFO:Compiling Metrics
+2020-09-01 05:57:19,086:INFO:Initializing Fold 9
+2020-09-01 05:57:19,088:INFO:Total runtime is 0.08484796285629272 minutes
+2020-09-01 05:57:19,126:INFO:Fitting Model
+2020-09-01 05:57:19,231:INFO:Evaluating Metrics
+2020-09-01 05:57:19,261:INFO:No inverse transformer found
+2020-09-01 05:57:19,261:INFO:Compiling Metrics
+2020-09-01 05:57:19,376:INFO:Initializing Fold 10
+2020-09-01 05:57:19,377:INFO:Total runtime is 0.08966509103775024 minutes
+2020-09-01 05:57:19,407:INFO:Fitting Model
+2020-09-01 05:57:19,576:INFO:Evaluating Metrics
+2020-09-01 05:57:19,581:INFO:No inverse transformer found
+2020-09-01 05:57:19,582:INFO:Compiling Metrics
+2020-09-01 05:57:19,613:INFO:Calculating mean and std
+2020-09-01 05:57:19,615:INFO:Creating metrics dataframe
+2020-09-01 05:57:19,696:INFO:Initializing Ridge Regression
+2020-09-01 05:57:19,716:INFO:Initializing Fold 1
+2020-09-01 05:57:19,718:INFO:Total runtime is 0.0953460137049357 minutes
+2020-09-01 05:57:19,739:INFO:Fitting Model
+2020-09-01 05:57:19,785:INFO:Evaluating Metrics
+2020-09-01 05:57:19,791:INFO:No inverse transformer found
+2020-09-01 05:57:19,792:INFO:Compiling Metrics
+2020-09-01 05:57:19,837:INFO:Initializing Fold 2
+2020-09-01 05:57:19,841:INFO:Total runtime is 0.09740670522054036 minutes
+2020-09-01 05:57:19,877:INFO:Fitting Model
+2020-09-01 05:57:19,886:INFO:Evaluating Metrics
+2020-09-01 05:57:19,892:INFO:No inverse transformer found
+2020-09-01 05:57:19,892:INFO:Compiling Metrics
+2020-09-01 05:57:19,933:INFO:Initializing Fold 3
+2020-09-01 05:57:19,934:INFO:Total runtime is 0.09895588556925455 minutes
+2020-09-01 05:57:19,969:INFO:Fitting Model
+2020-09-01 05:57:19,977:INFO:Evaluating Metrics
+2020-09-01 05:57:19,982:INFO:No inverse transformer found
+2020-09-01 05:57:19,983:INFO:Compiling Metrics
+2020-09-01 05:57:20,014:INFO:Initializing Fold 4
+2020-09-01 05:57:20,018:INFO:Total runtime is 0.10035486618677775 minutes
+2020-09-01 05:57:20,047:INFO:Fitting Model
+2020-09-01 05:57:20,065:INFO:Evaluating Metrics
+2020-09-01 05:57:20,077:INFO:No inverse transformer found
+2020-09-01 05:57:20,078:INFO:Compiling Metrics
+2020-09-01 05:57:20,152:INFO:Initializing Fold 5
+2020-09-01 05:57:20,158:INFO:Total runtime is 0.10267468293507893 minutes
+2020-09-01 05:57:20,206:INFO:Fitting Model
+2020-09-01 05:57:20,212:INFO:Evaluating Metrics
+2020-09-01 05:57:20,220:INFO:No inverse transformer found
+2020-09-01 05:57:20,221:INFO:Compiling Metrics
+2020-09-01 05:57:20,284:INFO:Initializing Fold 6
+2020-09-01 05:57:20,286:INFO:Total runtime is 0.10480809211730957 minutes
+2020-09-01 05:57:20,339:INFO:Fitting Model
+2020-09-01 05:57:20,346:INFO:Evaluating Metrics
+2020-09-01 05:57:20,352:INFO:No inverse transformer found
+2020-09-01 05:57:20,352:INFO:Compiling Metrics
+2020-09-01 05:57:20,392:INFO:Initializing Fold 7
+2020-09-01 05:57:20,393:INFO:Total runtime is 0.10660358667373657 minutes
+2020-09-01 05:57:20,430:INFO:Fitting Model
+2020-09-01 05:57:20,438:INFO:Evaluating Metrics
+2020-09-01 05:57:20,458:INFO:No inverse transformer found
+2020-09-01 05:57:20,459:INFO:Compiling Metrics
+2020-09-01 05:57:20,491:INFO:Initializing Fold 8
+2020-09-01 05:57:20,492:INFO:Total runtime is 0.10825686852137247 minutes
+2020-09-01 05:57:20,547:INFO:Fitting Model
+2020-09-01 05:57:20,563:INFO:Evaluating Metrics
+2020-09-01 05:57:20,568:INFO:No inverse transformer found
+2020-09-01 05:57:20,568:INFO:Compiling Metrics
+2020-09-01 05:57:20,605:INFO:Initializing Fold 9
+2020-09-01 05:57:20,606:INFO:Total runtime is 0.110152268409729 minutes
+2020-09-01 05:57:20,642:INFO:Fitting Model
+2020-09-01 05:57:20,653:INFO:Evaluating Metrics
+2020-09-01 05:57:20,659:INFO:No inverse transformer found
+2020-09-01 05:57:20,659:INFO:Compiling Metrics
+2020-09-01 05:57:20,723:INFO:Initializing Fold 10
+2020-09-01 05:57:20,727:INFO:Total runtime is 0.11216243902842203 minutes
+2020-09-01 05:57:20,800:INFO:Fitting Model
+2020-09-01 05:57:20,809:INFO:Evaluating Metrics
+2020-09-01 05:57:20,818:INFO:No inverse transformer found
+2020-09-01 05:57:20,818:INFO:Compiling Metrics
+2020-09-01 05:57:20,899:INFO:Calculating mean and std
+2020-09-01 05:57:20,900:INFO:Creating metrics dataframe
+2020-09-01 05:57:20,997:INFO:Initializing Elastic Net
+2020-09-01 05:57:21,026:INFO:Initializing Fold 1
+2020-09-01 05:57:21,028:INFO:Total runtime is 0.11718130509058634 minutes
+2020-09-01 05:57:21,055:INFO:Fitting Model
+2020-09-01 05:57:21,085:INFO:Evaluating Metrics
+2020-09-01 05:57:21,117:INFO:No inverse transformer found
+2020-09-01 05:57:21,118:INFO:Compiling Metrics
+2020-09-01 05:57:21,211:INFO:Initializing Fold 2
+2020-09-01 05:57:21,212:INFO:Total runtime is 0.12025338808695475 minutes
+2020-09-01 05:57:21,248:INFO:Fitting Model
+2020-09-01 05:57:21,256:INFO:Evaluating Metrics
+2020-09-01 05:57:21,288:INFO:No inverse transformer found
+2020-09-01 05:57:21,289:INFO:Compiling Metrics
+2020-09-01 05:57:21,367:INFO:Initializing Fold 3
+2020-09-01 05:57:21,369:INFO:Total runtime is 0.12285923957824707 minutes
+2020-09-01 05:57:21,400:INFO:Fitting Model
+2020-09-01 05:57:21,419:INFO:Evaluating Metrics
+2020-09-01 05:57:21,433:INFO:No inverse transformer found
+2020-09-01 05:57:21,433:INFO:Compiling Metrics
+2020-09-01 05:57:21,554:INFO:Initializing Fold 4
+2020-09-01 05:57:21,556:INFO:Total runtime is 0.12598081827163696 minutes
+2020-09-01 05:57:21,589:INFO:Fitting Model
+2020-09-01 05:57:21,628:INFO:Evaluating Metrics
+2020-09-01 05:57:21,653:INFO:No inverse transformer found
+2020-09-01 05:57:21,654:INFO:Compiling Metrics
+2020-09-01 05:57:21,705:INFO:Initializing Fold 5
+2020-09-01 05:57:21,706:INFO:Total runtime is 0.12848277886708576 minutes
+2020-09-01 05:57:21,746:INFO:Fitting Model
+2020-09-01 05:57:21,775:INFO:Evaluating Metrics
+2020-09-01 05:57:21,791:INFO:No inverse transformer found
+2020-09-01 05:57:21,792:INFO:Compiling Metrics
+2020-09-01 05:57:21,839:INFO:Initializing Fold 6
+2020-09-01 05:57:21,840:INFO:Total runtime is 0.13071666161219278 minutes
+2020-09-01 05:57:21,893:INFO:Fitting Model
+2020-09-01 05:57:21,908:INFO:Evaluating Metrics
+2020-09-01 05:57:21,918:INFO:No inverse transformer found
+2020-09-01 05:57:21,919:INFO:Compiling Metrics
+2020-09-01 05:57:21,991:INFO:Initializing Fold 7
+2020-09-01 05:57:21,994:INFO:Total runtime is 0.13329000075658162 minutes
+2020-09-01 05:57:22,042:INFO:Fitting Model
+2020-09-01 05:57:22,051:INFO:Evaluating Metrics
+2020-09-01 05:57:22,060:INFO:No inverse transformer found
+2020-09-01 05:57:22,061:INFO:Compiling Metrics
+2020-09-01 05:57:22,133:INFO:Initializing Fold 8
+2020-09-01 05:57:22,136:INFO:Total runtime is 0.13565327326456705 minutes
+2020-09-01 05:57:22,180:INFO:Fitting Model
+2020-09-01 05:57:22,187:INFO:Evaluating Metrics
+2020-09-01 05:57:22,206:INFO:No inverse transformer found
+2020-09-01 05:57:22,206:INFO:Compiling Metrics
+2020-09-01 05:57:22,326:INFO:Initializing Fold 9
+2020-09-01 05:57:22,327:INFO:Total runtime is 0.13884004751841228 minutes
+2020-09-01 05:57:22,367:INFO:Fitting Model
+2020-09-01 05:57:22,375:INFO:Evaluating Metrics
+2020-09-01 05:57:22,408:INFO:No inverse transformer found
+2020-09-01 05:57:22,408:INFO:Compiling Metrics
+2020-09-01 05:57:22,503:INFO:Initializing Fold 10
+2020-09-01 05:57:22,504:INFO:Total runtime is 0.14178938865661622 minutes
+2020-09-01 05:57:22,531:INFO:Fitting Model
+2020-09-01 05:57:22,543:INFO:Evaluating Metrics
+2020-09-01 05:57:22,560:INFO:No inverse transformer found
+2020-09-01 05:57:22,561:INFO:Compiling Metrics
+2020-09-01 05:57:22,597:INFO:Calculating mean and std
+2020-09-01 05:57:22,598:INFO:Creating metrics dataframe
+2020-09-01 05:57:22,696:INFO:Initializing Least Angle Regression
+2020-09-01 05:57:22,721:INFO:Initializing Fold 1
+2020-09-01 05:57:22,723:INFO:Total runtime is 0.1454308350880941 minutes
+2020-09-01 05:57:22,752:INFO:Fitting Model
+2020-09-01 05:57:22,781:INFO:Evaluating Metrics
+2020-09-01 05:57:22,788:INFO:No inverse transformer found
+2020-09-01 05:57:22,788:INFO:Compiling Metrics
+2020-09-01 05:57:22,826:INFO:Initializing Fold 2
+2020-09-01 05:57:22,827:INFO:Total runtime is 0.14717326561609906 minutes
+2020-09-01 05:57:22,861:INFO:Fitting Model
+2020-09-01 05:57:22,897:INFO:Evaluating Metrics
+2020-09-01 05:57:22,915:INFO:No inverse transformer found
+2020-09-01 05:57:22,916:INFO:Compiling Metrics
+2020-09-01 05:57:22,959:INFO:Initializing Fold 3
+2020-09-01 05:57:22,960:INFO:Total runtime is 0.1493853012720744 minutes
+2020-09-01 05:57:22,988:INFO:Fitting Model
+2020-09-01 05:57:23,077:INFO:Evaluating Metrics
+2020-09-01 05:57:23,088:INFO:No inverse transformer found
+2020-09-01 05:57:23,089:INFO:Compiling Metrics
+2020-09-01 05:57:23,214:INFO:Initializing Fold 4
+2020-09-01 05:57:23,215:INFO:Total runtime is 0.15364005168279013 minutes
+2020-09-01 05:57:23,253:INFO:Fitting Model
+2020-09-01 05:57:23,283:INFO:Evaluating Metrics
+2020-09-01 05:57:23,302:INFO:No inverse transformer found
+2020-09-01 05:57:23,303:INFO:Compiling Metrics
+2020-09-01 05:57:23,361:INFO:Initializing Fold 5
+2020-09-01 05:57:23,362:INFO:Total runtime is 0.1560835639635722 minutes
+2020-09-01 05:57:23,394:INFO:Fitting Model
+2020-09-01 05:57:23,415:INFO:Evaluating Metrics
+2020-09-01 05:57:23,421:INFO:No inverse transformer found
+2020-09-01 05:57:23,421:INFO:Compiling Metrics
+2020-09-01 05:57:23,460:INFO:Initializing Fold 6
+2020-09-01 05:57:23,462:INFO:Total runtime is 0.1577425837516785 minutes
+2020-09-01 05:57:23,489:INFO:Fitting Model
+2020-09-01 05:57:23,509:INFO:Evaluating Metrics
+2020-09-01 05:57:23,514:INFO:No inverse transformer found
+2020-09-01 05:57:23,514:INFO:Compiling Metrics
+2020-09-01 05:57:23,546:INFO:Initializing Fold 7
+2020-09-01 05:57:23,548:INFO:Total runtime is 0.15917439460754396 minutes
+2020-09-01 05:57:23,579:INFO:Fitting Model
+2020-09-01 05:57:23,600:INFO:Evaluating Metrics
+2020-09-01 05:57:23,607:INFO:No inverse transformer found
+2020-09-01 05:57:23,607:INFO:Compiling Metrics
+2020-09-01 05:57:23,644:INFO:Initializing Fold 8
+2020-09-01 05:57:23,646:INFO:Total runtime is 0.1608206590016683 minutes
+2020-09-01 05:57:23,689:INFO:Fitting Model
+2020-09-01 05:57:23,710:INFO:Evaluating Metrics
+2020-09-01 05:57:23,716:INFO:No inverse transformer found
+2020-09-01 05:57:23,716:INFO:Compiling Metrics
+2020-09-01 05:57:23,755:INFO:Initializing Fold 9
+2020-09-01 05:57:23,757:INFO:Total runtime is 0.16266176303227745 minutes
+2020-09-01 05:57:23,820:INFO:Fitting Model
+2020-09-01 05:57:23,838:INFO:Evaluating Metrics
+2020-09-01 05:57:23,843:INFO:No inverse transformer found
+2020-09-01 05:57:23,843:INFO:Compiling Metrics
+2020-09-01 05:57:23,876:INFO:Initializing Fold 10
+2020-09-01 05:57:23,879:INFO:Total runtime is 0.1647040883700053 minutes
+2020-09-01 05:57:23,910:INFO:Fitting Model
+2020-09-01 05:57:23,930:INFO:Evaluating Metrics
+2020-09-01 05:57:23,935:INFO:No inverse transformer found
+2020-09-01 05:57:23,936:INFO:Compiling Metrics
+2020-09-01 05:57:23,975:INFO:Calculating mean and std
+2020-09-01 05:57:23,976:INFO:Creating metrics dataframe
+2020-09-01 05:57:24,073:INFO:Initializing Lasso Least Angle Regression
+2020-09-01 05:57:24,097:INFO:Initializing Fold 1
+2020-09-01 05:57:24,098:INFO:Total runtime is 0.16835277875264487 minutes
+2020-09-01 05:57:24,118:INFO:Fitting Model
+2020-09-01 05:57:24,134:INFO:Evaluating Metrics
+2020-09-01 05:57:24,148:INFO:No inverse transformer found
+2020-09-01 05:57:24,148:INFO:Compiling Metrics
+2020-09-01 05:57:24,185:INFO:Initializing Fold 2
+2020-09-01 05:57:24,187:INFO:Total runtime is 0.16983221371968588 minutes
+2020-09-01 05:57:24,217:INFO:Fitting Model
+2020-09-01 05:57:24,237:INFO:Evaluating Metrics
+2020-09-01 05:57:24,242:INFO:No inverse transformer found
+2020-09-01 05:57:24,242:INFO:Compiling Metrics
+2020-09-01 05:57:24,278:INFO:Initializing Fold 3
+2020-09-01 05:57:24,280:INFO:Total runtime is 0.1713802178700765 minutes
+2020-09-01 05:57:24,311:INFO:Fitting Model
+2020-09-01 05:57:24,328:INFO:Evaluating Metrics
+2020-09-01 05:57:24,334:INFO:No inverse transformer found
+2020-09-01 05:57:24,334:INFO:Compiling Metrics
+2020-09-01 05:57:24,372:INFO:Initializing Fold 4
+2020-09-01 05:57:24,374:INFO:Total runtime is 0.17294638951619468 minutes
+2020-09-01 05:57:24,404:INFO:Fitting Model
+2020-09-01 05:57:24,426:INFO:Evaluating Metrics
+2020-09-01 05:57:24,432:INFO:No inverse transformer found
+2020-09-01 05:57:24,432:INFO:Compiling Metrics
+2020-09-01 05:57:24,483:INFO:Initializing Fold 5
+2020-09-01 05:57:24,484:INFO:Total runtime is 0.17478788693745934 minutes
+2020-09-01 05:57:24,523:INFO:Fitting Model
+2020-09-01 05:57:24,546:INFO:Evaluating Metrics
+2020-09-01 05:57:24,551:INFO:No inverse transformer found
+2020-09-01 05:57:24,551:INFO:Compiling Metrics
+2020-09-01 05:57:24,588:INFO:Initializing Fold 6
+2020-09-01 05:57:24,589:INFO:Total runtime is 0.1765360514322917 minutes
+2020-09-01 05:57:24,618:INFO:Fitting Model
+2020-09-01 05:57:24,636:INFO:Evaluating Metrics
+2020-09-01 05:57:24,648:INFO:No inverse transformer found
+2020-09-01 05:57:24,649:INFO:Compiling Metrics
+2020-09-01 05:57:24,686:INFO:Initializing Fold 7
+2020-09-01 05:57:24,691:INFO:Total runtime is 0.1781676808993022 minutes
+2020-09-01 05:57:24,723:INFO:Fitting Model
+2020-09-01 05:57:24,749:INFO:Evaluating Metrics
+2020-09-01 05:57:24,757:INFO:No inverse transformer found
+2020-09-01 05:57:24,758:INFO:Compiling Metrics
+2020-09-01 05:57:24,791:INFO:Initializing Fold 8
+2020-09-01 05:57:24,792:INFO:Total runtime is 0.17992057402928674 minutes
+2020-09-01 05:57:24,819:INFO:Fitting Model
+2020-09-01 05:57:24,835:INFO:Evaluating Metrics
+2020-09-01 05:57:24,840:INFO:No inverse transformer found
+2020-09-01 05:57:24,840:INFO:Compiling Metrics
+2020-09-01 05:57:24,869:INFO:Initializing Fold 9
+2020-09-01 05:57:24,871:INFO:Total runtime is 0.18123019138971969 minutes
+2020-09-01 05:57:24,899:INFO:Fitting Model
+2020-09-01 05:57:24,916:INFO:Evaluating Metrics
+2020-09-01 05:57:24,922:INFO:No inverse transformer found
+2020-09-01 05:57:24,922:INFO:Compiling Metrics
+2020-09-01 05:57:24,960:INFO:Initializing Fold 10
+2020-09-01 05:57:24,962:INFO:Total runtime is 0.1827504714330038 minutes
+2020-09-01 05:57:24,993:INFO:Fitting Model
+2020-09-01 05:57:25,014:INFO:Evaluating Metrics
+2020-09-01 05:57:25,024:INFO:No inverse transformer found
+2020-09-01 05:57:25,024:INFO:Compiling Metrics
+2020-09-01 05:57:25,060:INFO:Calculating mean and std
+2020-09-01 05:57:25,061:INFO:Creating metrics dataframe
+2020-09-01 05:57:25,143:INFO:Initializing Orthogonal Matching Pursuit
+2020-09-01 05:57:25,182:INFO:Initializing Fold 1
+2020-09-01 05:57:25,186:INFO:Total runtime is 0.18647448619206752 minutes
+2020-09-01 05:57:25,211:INFO:Fitting Model
+2020-09-01 05:57:25,219:INFO:Evaluating Metrics
+2020-09-01 05:57:25,224:INFO:No inverse transformer found
+2020-09-01 05:57:25,224:INFO:Compiling Metrics
+2020-09-01 05:57:25,259:INFO:Initializing Fold 2
+2020-09-01 05:57:25,260:INFO:Total runtime is 0.18771892786026007 minutes
+2020-09-01 05:57:25,290:INFO:Fitting Model
+2020-09-01 05:57:25,312:INFO:Evaluating Metrics
+2020-09-01 05:57:25,321:INFO:No inverse transformer found
+2020-09-01 05:57:25,322:INFO:Compiling Metrics
+2020-09-01 05:57:25,373:INFO:Initializing Fold 3
+2020-09-01 05:57:25,375:INFO:Total runtime is 0.18963310321172083 minutes
+2020-09-01 05:57:25,421:INFO:Fitting Model
+2020-09-01 05:57:25,447:INFO:Evaluating Metrics
+2020-09-01 05:57:25,461:INFO:No inverse transformer found
+2020-09-01 05:57:25,461:INFO:Compiling Metrics
+2020-09-01 05:57:25,549:INFO:Initializing Fold 4
+2020-09-01 05:57:25,556:INFO:Total runtime is 0.1926490743954977 minutes
+2020-09-01 05:57:25,619:INFO:Fitting Model
+2020-09-01 05:57:25,635:INFO:Evaluating Metrics
+2020-09-01 05:57:25,650:INFO:No inverse transformer found
+2020-09-01 05:57:25,650:INFO:Compiling Metrics
+2020-09-01 05:57:25,719:INFO:Initializing Fold 5
+2020-09-01 05:57:25,720:INFO:Total runtime is 0.1953872402509054 minutes
+2020-09-01 05:57:25,773:INFO:Fitting Model
+2020-09-01 05:57:25,782:INFO:Evaluating Metrics
+2020-09-01 05:57:25,786:INFO:No inverse transformer found
+2020-09-01 05:57:25,786:INFO:Compiling Metrics
+2020-09-01 05:57:25,826:INFO:Initializing Fold 6
+2020-09-01 05:57:25,828:INFO:Total runtime is 0.19718827009201054 minutes
+2020-09-01 05:57:25,859:INFO:Fitting Model
+2020-09-01 05:57:25,869:INFO:Evaluating Metrics
+2020-09-01 05:57:25,874:INFO:No inverse transformer found
+2020-09-01 05:57:25,874:INFO:Compiling Metrics
+2020-09-01 05:57:25,910:INFO:Initializing Fold 7
+2020-09-01 05:57:25,911:INFO:Total runtime is 0.1985630591710409 minutes
+2020-09-01 05:57:25,942:INFO:Fitting Model
+2020-09-01 05:57:25,951:INFO:Evaluating Metrics
+2020-09-01 05:57:25,956:INFO:No inverse transformer found
+2020-09-01 05:57:25,956:INFO:Compiling Metrics
+2020-09-01 05:57:25,992:INFO:Initializing Fold 8
+2020-09-01 05:57:25,996:INFO:Total runtime is 0.19998155832290654 minutes
+2020-09-01 05:57:26,031:INFO:Fitting Model
+2020-09-01 05:57:26,054:INFO:Evaluating Metrics
+2020-09-01 05:57:26,076:INFO:No inverse transformer found
+2020-09-01 05:57:26,076:INFO:Compiling Metrics
+2020-09-01 05:57:26,121:INFO:Initializing Fold 9
+2020-09-01 05:57:26,123:INFO:Total runtime is 0.20209408601125087 minutes
+2020-09-01 05:57:26,193:INFO:Fitting Model
+2020-09-01 05:57:26,200:INFO:Evaluating Metrics
+2020-09-01 05:57:26,206:INFO:No inverse transformer found
+2020-09-01 05:57:26,206:INFO:Compiling Metrics
+2020-09-01 05:57:26,251:INFO:Initializing Fold 10
+2020-09-01 05:57:26,253:INFO:Total runtime is 0.20426400105158493 minutes
+2020-09-01 05:57:26,288:INFO:Fitting Model
+2020-09-01 05:57:26,298:INFO:Evaluating Metrics
+2020-09-01 05:57:26,305:INFO:No inverse transformer found
+2020-09-01 05:57:26,305:INFO:Compiling Metrics
+2020-09-01 05:57:26,342:INFO:Calculating mean and std
+2020-09-01 05:57:26,343:INFO:Creating metrics dataframe
+2020-09-01 05:57:26,458:INFO:Initializing Bayesian Ridge
+2020-09-01 05:57:26,493:INFO:Initializing Fold 1
+2020-09-01 05:57:26,494:INFO:Total runtime is 0.20828919013341274 minutes
+2020-09-01 05:57:26,522:INFO:Fitting Model
+2020-09-01 05:57:26,612:INFO:Evaluating Metrics
+2020-09-01 05:57:26,650:INFO:No inverse transformer found
+2020-09-01 05:57:26,651:INFO:Compiling Metrics
+2020-09-01 05:57:26,752:INFO:Initializing Fold 2
+2020-09-01 05:57:26,753:INFO:Total runtime is 0.2126028696695964 minutes
+2020-09-01 05:57:26,778:INFO:Fitting Model
+2020-09-01 05:57:26,807:INFO:Evaluating Metrics
+2020-09-01 05:57:26,812:INFO:No inverse transformer found
+2020-09-01 05:57:26,812:INFO:Compiling Metrics
+2020-09-01 05:57:26,847:INFO:Initializing Fold 3
+2020-09-01 05:57:26,849:INFO:Total runtime is 0.21419465144475305 minutes
+2020-09-01 05:57:26,883:INFO:Fitting Model
+2020-09-01 05:57:26,922:INFO:Evaluating Metrics
+2020-09-01 05:57:26,927:INFO:No inverse transformer found
+2020-09-01 05:57:26,927:INFO:Compiling Metrics
+2020-09-01 05:57:27,014:INFO:Initializing Fold 4
+2020-09-01 05:57:27,015:INFO:Total runtime is 0.21696041425069176 minutes
+2020-09-01 05:57:27,056:INFO:Fitting Model
+2020-09-01 05:57:27,162:INFO:Evaluating Metrics
+2020-09-01 05:57:27,185:INFO:No inverse transformer found
+2020-09-01 05:57:27,185:INFO:Compiling Metrics
+2020-09-01 05:57:27,262:INFO:Initializing Fold 5
+2020-09-01 05:57:27,263:INFO:Total runtime is 0.22110388278961185 minutes
+2020-09-01 05:57:27,296:INFO:Fitting Model
+2020-09-01 05:57:27,334:INFO:Evaluating Metrics
+2020-09-01 05:57:27,347:INFO:No inverse transformer found
+2020-09-01 05:57:27,348:INFO:Compiling Metrics
+2020-09-01 05:57:27,433:INFO:Initializing Fold 6
+2020-09-01 05:57:27,440:INFO:Total runtime is 0.22405054966608687 minutes
+2020-09-01 05:57:27,473:INFO:Fitting Model
+2020-09-01 05:57:27,608:INFO:Evaluating Metrics
+2020-09-01 05:57:27,628:INFO:No inverse transformer found
+2020-09-01 05:57:27,628:INFO:Compiling Metrics
+2020-09-01 05:57:27,669:INFO:Initializing Fold 7
+2020-09-01 05:57:27,674:INFO:Total runtime is 0.22795608441034956 minutes
+2020-09-01 05:57:27,718:INFO:Fitting Model
+2020-09-01 05:57:27,802:INFO:Evaluating Metrics
+2020-09-01 05:57:27,826:INFO:No inverse transformer found
+2020-09-01 05:57:27,827:INFO:Compiling Metrics
+2020-09-01 05:57:27,920:INFO:Initializing Fold 8
+2020-09-01 05:57:27,921:INFO:Total runtime is 0.23206683397293093 minutes
+2020-09-01 05:57:27,959:INFO:Fitting Model
+2020-09-01 05:57:28,054:INFO:Evaluating Metrics
+2020-09-01 05:57:28,084:INFO:No inverse transformer found
+2020-09-01 05:57:28,084:INFO:Compiling Metrics
+2020-09-01 05:57:28,179:INFO:Initializing Fold 9
+2020-09-01 05:57:28,180:INFO:Total runtime is 0.23638368050257366 minutes
+2020-09-01 05:57:28,220:INFO:Fitting Model
+2020-09-01 05:57:28,274:INFO:Evaluating Metrics
+2020-09-01 05:57:28,292:INFO:No inverse transformer found
+2020-09-01 05:57:28,293:INFO:Compiling Metrics
+2020-09-01 05:57:28,402:INFO:Initializing Fold 10
+2020-09-01 05:57:28,404:INFO:Total runtime is 0.24011612335840862 minutes
+2020-09-01 05:57:28,435:INFO:Fitting Model
+2020-09-01 05:57:28,484:INFO:Evaluating Metrics
+2020-09-01 05:57:28,489:INFO:No inverse transformer found
+2020-09-01 05:57:28,489:INFO:Compiling Metrics
+2020-09-01 05:57:28,526:INFO:Calculating mean and std
+2020-09-01 05:57:28,533:INFO:Creating metrics dataframe
+2020-09-01 05:57:28,656:INFO:Initializing Passive Aggressive Regressor
+2020-09-01 05:57:28,683:INFO:Initializing Fold 1
+2020-09-01 05:57:28,684:INFO:Total runtime is 0.24478704929351808 minutes
+2020-09-01 05:57:28,712:INFO:Fitting Model
+2020-09-01 05:57:28,782:INFO:Evaluating Metrics
+2020-09-01 05:57:28,788:INFO:No inverse transformer found
+2020-09-01 05:57:28,788:INFO:Compiling Metrics
+2020-09-01 05:57:28,817:INFO:Initializing Fold 2
+2020-09-01 05:57:28,819:INFO:Total runtime is 0.2470247546831767 minutes
+2020-09-01 05:57:28,851:INFO:Fitting Model
+2020-09-01 05:57:28,913:INFO:Evaluating Metrics
+2020-09-01 05:57:28,918:INFO:No inverse transformer found
+2020-09-01 05:57:28,918:INFO:Compiling Metrics
+2020-09-01 05:57:28,950:INFO:Initializing Fold 3
+2020-09-01 05:57:28,952:INFO:Total runtime is 0.2492423176765442 minutes
+2020-09-01 05:57:28,977:INFO:Fitting Model
+2020-09-01 05:57:29,026:INFO:Evaluating Metrics
+2020-09-01 05:57:29,031:INFO:No inverse transformer found
+2020-09-01 05:57:29,032:INFO:Compiling Metrics
+2020-09-01 05:57:29,063:INFO:Initializing Fold 4
+2020-09-01 05:57:29,064:INFO:Total runtime is 0.2511231740315755 minutes
+2020-09-01 05:57:29,095:INFO:Fitting Model
+2020-09-01 05:57:29,148:INFO:Evaluating Metrics
+2020-09-01 05:57:29,153:INFO:No inverse transformer found
+2020-09-01 05:57:29,154:INFO:Compiling Metrics
+2020-09-01 05:57:29,189:INFO:Initializing Fold 5
+2020-09-01 05:57:29,193:INFO:Total runtime is 0.25326771338780724 minutes
+2020-09-01 05:57:29,223:INFO:Fitting Model
+2020-09-01 05:57:29,280:INFO:Evaluating Metrics
+2020-09-01 05:57:29,283:INFO:No inverse transformer found
+2020-09-01 05:57:29,283:INFO:Compiling Metrics
+2020-09-01 05:57:29,322:INFO:Initializing Fold 6
+2020-09-01 05:57:29,324:INFO:Total runtime is 0.2554408669471741 minutes
+2020-09-01 05:57:29,366:INFO:Fitting Model
+2020-09-01 05:57:29,421:INFO:Evaluating Metrics
+2020-09-01 05:57:29,425:INFO:No inverse transformer found
+2020-09-01 05:57:29,425:INFO:Compiling Metrics
+2020-09-01 05:57:29,476:INFO:Initializing Fold 7
+2020-09-01 05:57:29,477:INFO:Total runtime is 0.2580003380775452 minutes
+2020-09-01 05:57:29,545:INFO:Fitting Model
+2020-09-01 05:57:29,585:INFO:Evaluating Metrics
+2020-09-01 05:57:29,596:INFO:No inverse transformer found
+2020-09-01 05:57:29,596:INFO:Compiling Metrics
+2020-09-01 05:57:29,641:INFO:Initializing Fold 8
+2020-09-01 05:57:29,643:INFO:Total runtime is 0.2607601245244344 minutes
+2020-09-01 05:57:29,680:INFO:Fitting Model
+2020-09-01 05:57:29,735:INFO:Evaluating Metrics
+2020-09-01 05:57:29,739:INFO:No inverse transformer found
+2020-09-01 05:57:29,740:INFO:Compiling Metrics
+2020-09-01 05:57:29,774:INFO:Initializing Fold 9
+2020-09-01 05:57:29,776:INFO:Total runtime is 0.26298153003056846 minutes
+2020-09-01 05:57:29,818:INFO:Fitting Model
+2020-09-01 05:57:29,875:INFO:Evaluating Metrics
+2020-09-01 05:57:29,880:INFO:No inverse transformer found
+2020-09-01 05:57:29,880:INFO:Compiling Metrics
+2020-09-01 05:57:29,952:INFO:Initializing Fold 10
+2020-09-01 05:57:29,954:INFO:Total runtime is 0.2659487922986349 minutes
+2020-09-01 05:57:30,004:INFO:Fitting Model
+2020-09-01 05:57:30,049:INFO:Evaluating Metrics
+2020-09-01 05:57:30,060:INFO:No inverse transformer found
+2020-09-01 05:57:30,060:INFO:Compiling Metrics
+2020-09-01 05:57:30,131:INFO:Calculating mean and std
+2020-09-01 05:57:30,132:INFO:Creating metrics dataframe
+2020-09-01 05:57:30,252:INFO:Initializing Random Sample Consensus
+2020-09-01 05:57:30,283:INFO:Initializing Fold 1
+2020-09-01 05:57:30,284:INFO:Total runtime is 0.27145610253016156 minutes
+2020-09-01 05:57:30,312:INFO:Fitting Model
+2020-09-01 05:57:31,385:INFO:Evaluating Metrics
+2020-09-01 05:57:31,391:INFO:No inverse transformer found
+2020-09-01 05:57:31,391:INFO:Compiling Metrics
+2020-09-01 05:57:31,435:INFO:Initializing Fold 2
+2020-09-01 05:57:31,437:INFO:Total runtime is 0.29065764347712203 minutes
+2020-09-01 05:57:31,470:INFO:Fitting Model
+2020-09-01 05:57:32,738:INFO:Evaluating Metrics
+2020-09-01 05:57:32,744:INFO:No inverse transformer found
+2020-09-01 05:57:32,744:INFO:Compiling Metrics
+2020-09-01 05:57:32,789:INFO:Initializing Fold 3
+2020-09-01 05:57:32,791:INFO:Total runtime is 0.31322745084762577 minutes
+2020-09-01 05:57:32,864:INFO:Fitting Model
+2020-09-01 05:57:33,770:INFO:Evaluating Metrics
+2020-09-01 05:57:33,776:INFO:No inverse transformer found
+2020-09-01 05:57:33,776:INFO:Compiling Metrics
+2020-09-01 05:57:33,812:INFO:Initializing Fold 4
+2020-09-01 05:57:33,814:INFO:Total runtime is 0.33027588129043584 minutes
+2020-09-01 05:57:33,847:INFO:Fitting Model
+2020-09-01 05:57:35,361:INFO:Evaluating Metrics
+2020-09-01 05:57:35,377:INFO:No inverse transformer found
+2020-09-01 05:57:35,377:INFO:Compiling Metrics
+2020-09-01 05:57:35,421:INFO:Initializing Fold 5
+2020-09-01 05:57:35,426:INFO:Total runtime is 0.3571495413780213 minutes
+2020-09-01 05:57:35,468:INFO:Fitting Model
+2020-09-01 05:57:36,970:INFO:Evaluating Metrics
+2020-09-01 05:57:36,980:INFO:No inverse transformer found
+2020-09-01 05:57:36,980:INFO:Compiling Metrics
+2020-09-01 05:57:37,025:INFO:Initializing Fold 6
+2020-09-01 05:57:37,027:INFO:Total runtime is 0.38382680416107184 minutes
+2020-09-01 05:57:37,062:INFO:Fitting Model
+2020-09-01 05:57:38,209:INFO:Evaluating Metrics
+2020-09-01 05:57:38,221:INFO:No inverse transformer found
+2020-09-01 05:57:38,221:INFO:Compiling Metrics
+2020-09-01 05:57:38,311:INFO:Initializing Fold 7
+2020-09-01 05:57:38,313:INFO:Total runtime is 0.4052617351214092 minutes
+2020-09-01 05:57:38,366:INFO:Fitting Model
+2020-09-01 05:57:39,425:INFO:Evaluating Metrics
+2020-09-01 05:57:39,447:INFO:No inverse transformer found
+2020-09-01 05:57:39,448:INFO:Compiling Metrics
+2020-09-01 05:57:39,553:INFO:Initializing Fold 8
+2020-09-01 05:57:39,557:INFO:Total runtime is 0.42599754333496104 minutes
+2020-09-01 05:57:39,586:INFO:Fitting Model
+2020-09-01 05:57:40,808:INFO:Evaluating Metrics
+2020-09-01 05:57:40,815:INFO:No inverse transformer found
+2020-09-01 05:57:40,815:INFO:Compiling Metrics
+2020-09-01 05:57:40,850:INFO:Initializing Fold 9
+2020-09-01 05:57:40,851:INFO:Total runtime is 0.447566850980123 minutes
+2020-09-01 05:57:40,884:INFO:Fitting Model
+2020-09-01 05:57:42,277:INFO:Evaluating Metrics
+2020-09-01 05:57:42,293:INFO:No inverse transformer found
+2020-09-01 05:57:42,293:INFO:Compiling Metrics
+2020-09-01 05:57:42,329:INFO:Initializing Fold 10
+2020-09-01 05:57:42,330:INFO:Total runtime is 0.47221978902816786 minutes
+2020-09-01 05:57:42,373:INFO:Fitting Model
+2020-09-01 05:57:43,460:INFO:Evaluating Metrics
+2020-09-01 05:57:43,470:INFO:No inverse transformer found
+2020-09-01 05:57:43,470:INFO:Compiling Metrics
+2020-09-01 05:57:43,509:INFO:Calculating mean and std
+2020-09-01 05:57:43,509:INFO:Creating metrics dataframe
+2020-09-01 05:57:43,595:INFO:Initializing TheilSen Regressor
+2020-09-01 05:57:43,623:INFO:Initializing Fold 1
+2020-09-01 05:57:43,625:INFO:Total runtime is 0.4937926014264426 minutes
+2020-09-01 05:57:43,653:INFO:Fitting Model
+2020-09-01 05:57:51,499:INFO:Evaluating Metrics
+2020-09-01 05:57:51,516:INFO:No inverse transformer found
+2020-09-01 05:57:51,516:INFO:Compiling Metrics
+2020-09-01 05:57:51,566:INFO:Initializing Fold 2
+2020-09-01 05:57:51,570:INFO:Total runtime is 0.6262190659840903 minutes
+2020-09-01 05:57:51,614:INFO:Fitting Model
+2020-09-01 05:57:55,218:INFO:Evaluating Metrics
+2020-09-01 05:57:55,228:INFO:No inverse transformer found
+2020-09-01 05:57:55,228:INFO:Compiling Metrics
+2020-09-01 05:57:55,299:INFO:Initializing Fold 3
+2020-09-01 05:57:55,300:INFO:Total runtime is 0.6883870124816895 minutes
+2020-09-01 05:57:55,343:INFO:Fitting Model
+2020-09-01 05:57:58,845:INFO:Evaluating Metrics
+2020-09-01 05:57:58,848:INFO:No inverse transformer found
+2020-09-01 05:57:58,849:INFO:Compiling Metrics
+2020-09-01 05:57:58,884:INFO:Initializing Fold 4
+2020-09-01 05:57:58,885:INFO:Total runtime is 0.7481365323066712 minutes
+2020-09-01 05:57:58,928:INFO:Fitting Model
+2020-09-01 05:58:02,210:INFO:Evaluating Metrics
+2020-09-01 05:58:02,214:INFO:No inverse transformer found
+2020-09-01 05:58:02,214:INFO:Compiling Metrics
+2020-09-01 05:58:02,280:INFO:Initializing Fold 5
+2020-09-01 05:58:02,283:INFO:Total runtime is 0.8047662258148194 minutes
+2020-09-01 05:58:02,317:INFO:Fitting Model
+2020-09-01 05:58:05,980:INFO:Evaluating Metrics
+2020-09-01 05:58:05,984:INFO:No inverse transformer found
+2020-09-01 05:58:05,984:INFO:Compiling Metrics
+2020-09-01 05:58:06,023:INFO:Initializing Fold 6
+2020-09-01 05:58:06,025:INFO:Total runtime is 0.8671315590540568 minutes
+2020-09-01 05:58:06,107:INFO:Fitting Model
+2020-09-01 05:58:09,388:INFO:Evaluating Metrics
+2020-09-01 05:58:09,393:INFO:No inverse transformer found
+2020-09-01 05:58:09,393:INFO:Compiling Metrics
+2020-09-01 05:58:09,426:INFO:Initializing Fold 7
+2020-09-01 05:58:09,427:INFO:Total runtime is 0.9238320628801981 minutes
+2020-09-01 05:58:09,461:INFO:Fitting Model
+2020-09-01 05:58:12,827:INFO:Evaluating Metrics
+2020-09-01 05:58:12,836:INFO:No inverse transformer found
+2020-09-01 05:58:12,837:INFO:Compiling Metrics
+2020-09-01 05:58:12,897:INFO:Initializing Fold 8
+2020-09-01 05:58:12,899:INFO:Total runtime is 0.9816941658655802 minutes
+2020-09-01 05:58:12,942:INFO:Fitting Model
+2020-09-01 05:58:16,771:INFO:Evaluating Metrics
+2020-09-01 05:58:16,790:INFO:No inverse transformer found
+2020-09-01 05:58:16,790:INFO:Compiling Metrics
+2020-09-01 05:58:16,829:INFO:Initializing Fold 9
+2020-09-01 05:58:16,834:INFO:Total runtime is 1.0472816904385884 minutes
+2020-09-01 05:58:16,868:INFO:Fitting Model
+2020-09-01 05:58:20,102:INFO:Evaluating Metrics
+2020-09-01 05:58:20,113:INFO:No inverse transformer found
+2020-09-01 05:58:20,113:INFO:Compiling Metrics
+2020-09-01 05:58:20,181:INFO:Initializing Fold 10
+2020-09-01 05:58:20,182:INFO:Total runtime is 1.1030855139096578 minutes
+2020-09-01 05:58:20,236:INFO:Fitting Model
+2020-09-01 05:58:23,618:INFO:Evaluating Metrics
+2020-09-01 05:58:23,622:INFO:No inverse transformer found
+2020-09-01 05:58:23,622:INFO:Compiling Metrics
+2020-09-01 05:58:23,656:INFO:Calculating mean and std
+2020-09-01 05:58:23,656:INFO:Creating metrics dataframe
+2020-09-01 05:58:23,747:INFO:Initializing Huber Regressor
+2020-09-01 05:58:23,765:INFO:Initializing Fold 1
+2020-09-01 05:58:23,766:INFO:Total runtime is 1.162816309928894 minutes
+2020-09-01 05:58:23,784:INFO:Fitting Model
+2020-09-01 05:58:24,131:INFO:Evaluating Metrics
+2020-09-01 05:58:24,146:INFO:No inverse transformer found
+2020-09-01 05:58:24,146:INFO:Compiling Metrics
+2020-09-01 05:58:24,250:INFO:Initializing Fold 2
+2020-09-01 05:58:24,251:INFO:Total runtime is 1.1709010561307271 minutes
+2020-09-01 05:58:24,287:INFO:Fitting Model
+2020-09-01 05:58:24,790:INFO:Evaluating Metrics
+2020-09-01 05:58:24,801:INFO:No inverse transformer found
+2020-09-01 05:58:24,801:INFO:Compiling Metrics
+2020-09-01 05:58:24,843:INFO:Initializing Fold 3
+2020-09-01 05:58:24,847:INFO:Total runtime is 1.180839200814565 minutes
+2020-09-01 05:58:24,904:INFO:Fitting Model
+2020-09-01 05:58:25,347:INFO:Evaluating Metrics
+2020-09-01 05:58:25,351:INFO:No inverse transformer found
+2020-09-01 05:58:25,352:INFO:Compiling Metrics
+2020-09-01 05:58:25,396:INFO:Initializing Fold 4
+2020-09-01 05:58:25,401:INFO:Total runtime is 1.1900649348894754 minutes
+2020-09-01 05:58:25,446:INFO:Fitting Model
+2020-09-01 05:58:25,796:INFO:Evaluating Metrics
+2020-09-01 05:58:25,802:INFO:No inverse transformer found
+2020-09-01 05:58:25,803:INFO:Compiling Metrics
+2020-09-01 05:58:25,860:INFO:Initializing Fold 5
+2020-09-01 05:58:25,865:INFO:Total runtime is 1.1978017807006835 minutes
+2020-09-01 05:58:25,899:INFO:Fitting Model
+2020-09-01 05:58:26,125:INFO:Evaluating Metrics
+2020-09-01 05:58:26,131:INFO:No inverse transformer found
+2020-09-01 05:58:26,131:INFO:Compiling Metrics
+2020-09-01 05:58:26,170:INFO:Initializing Fold 6
+2020-09-01 05:58:26,172:INFO:Total runtime is 1.202914015452067 minutes
+2020-09-01 05:58:26,214:INFO:Fitting Model
+2020-09-01 05:58:26,445:INFO:Evaluating Metrics
+2020-09-01 05:58:26,452:INFO:No inverse transformer found
+2020-09-01 05:58:26,453:INFO:Compiling Metrics
+2020-09-01 05:58:26,488:INFO:Initializing Fold 7
+2020-09-01 05:58:26,489:INFO:Total runtime is 1.208202588558197 minutes
+2020-09-01 05:58:26,523:INFO:Fitting Model
+2020-09-01 05:58:26,930:INFO:Evaluating Metrics
+2020-09-01 05:58:26,936:INFO:No inverse transformer found
+2020-09-01 05:58:26,936:INFO:Compiling Metrics
+2020-09-01 05:58:26,971:INFO:Initializing Fold 8
+2020-09-01 05:58:26,972:INFO:Total runtime is 1.216251003742218 minutes
+2020-09-01 05:58:27,008:INFO:Fitting Model
+2020-09-01 05:58:27,432:INFO:Evaluating Metrics
+2020-09-01 05:58:27,443:INFO:No inverse transformer found
+2020-09-01 05:58:27,444:INFO:Compiling Metrics
+2020-09-01 05:58:27,516:INFO:Initializing Fold 9
+2020-09-01 05:58:27,525:INFO:Total runtime is 1.2254724502563477 minutes
+2020-09-01 05:58:27,576:INFO:Fitting Model
+2020-09-01 05:58:27,829:INFO:Evaluating Metrics
+2020-09-01 05:58:27,834:INFO:No inverse transformer found
+2020-09-01 05:58:27,835:INFO:Compiling Metrics
+2020-09-01 05:58:27,866:INFO:Initializing Fold 10
+2020-09-01 05:58:27,870:INFO:Total runtime is 1.2312188824017842 minutes
+2020-09-01 05:58:27,904:INFO:Fitting Model
+2020-09-01 05:58:28,097:INFO:Evaluating Metrics
+2020-09-01 05:58:28,102:INFO:No inverse transformer found
+2020-09-01 05:58:28,103:INFO:Compiling Metrics
+2020-09-01 05:58:28,142:INFO:Calculating mean and std
+2020-09-01 05:58:28,143:INFO:Creating metrics dataframe
+2020-09-01 05:58:28,229:INFO:Initializing Support Vector Machine
+2020-09-01 05:58:28,251:INFO:Initializing Fold 1
+2020-09-01 05:58:28,252:INFO:Total runtime is 1.2375867009162902 minutes
+2020-09-01 05:58:28,300:INFO:Fitting Model
+2020-09-01 05:58:29,806:INFO:Evaluating Metrics
+2020-09-01 05:58:29,896:INFO:No inverse transformer found
+2020-09-01 05:58:29,896:INFO:Compiling Metrics
+2020-09-01 05:58:29,921:INFO:Initializing Fold 2
+2020-09-01 05:58:29,922:INFO:Total runtime is 1.2654093901316323 minutes
+2020-09-01 05:58:29,945:INFO:Fitting Model
+2020-09-01 05:58:31,467:INFO:Evaluating Metrics
+2020-09-01 05:58:31,620:INFO:No inverse transformer found
+2020-09-01 05:58:31,620:INFO:Compiling Metrics
+2020-09-01 05:58:31,642:INFO:Initializing Fold 3
+2020-09-01 05:58:31,643:INFO:Total runtime is 1.2940935095151265 minutes
+2020-09-01 05:58:31,663:INFO:Fitting Model
+2020-09-01 05:58:33,110:INFO:Evaluating Metrics
+2020-09-01 05:58:33,216:INFO:No inverse transformer found
+2020-09-01 05:58:33,217:INFO:Compiling Metrics
+2020-09-01 05:58:33,246:INFO:Initializing Fold 4
+2020-09-01 05:58:33,247:INFO:Total runtime is 1.3208311796188354 minutes
+2020-09-01 05:58:33,270:INFO:Fitting Model
+2020-09-01 05:58:34,687:INFO:Evaluating Metrics
+2020-09-01 05:58:34,794:INFO:No inverse transformer found
+2020-09-01 05:58:34,795:INFO:Compiling Metrics
+2020-09-01 05:58:34,826:INFO:Initializing Fold 5
+2020-09-01 05:58:34,827:INFO:Total runtime is 1.3471721251805624 minutes
+2020-09-01 05:58:34,852:INFO:Fitting Model
+2020-09-01 05:58:36,316:INFO:Evaluating Metrics
+2020-09-01 05:58:36,425:INFO:No inverse transformer found
+2020-09-01 05:58:36,425:INFO:Compiling Metrics
+2020-09-01 05:58:36,456:INFO:Initializing Fold 6
+2020-09-01 05:58:36,457:INFO:Total runtime is 1.3743372996648153 minutes
+2020-09-01 05:58:36,485:INFO:Fitting Model
+2020-09-01 05:58:37,915:INFO:Evaluating Metrics
+2020-09-01 05:58:38,024:INFO:No inverse transformer found
+2020-09-01 05:58:38,024:INFO:Compiling Metrics
+2020-09-01 05:58:38,048:INFO:Initializing Fold 7
+2020-09-01 05:58:38,050:INFO:Total runtime is 1.400875731309255 minutes
+2020-09-01 05:58:38,073:INFO:Fitting Model
+2020-09-01 05:58:39,512:INFO:Evaluating Metrics
+2020-09-01 05:58:39,597:INFO:No inverse transformer found
+2020-09-01 05:58:39,597:INFO:Compiling Metrics
+2020-09-01 05:58:39,619:INFO:Initializing Fold 8
+2020-09-01 05:58:39,620:INFO:Total runtime is 1.4270567178726197 minutes
+2020-09-01 05:58:39,650:INFO:Fitting Model
+2020-09-01 05:58:41,201:INFO:Evaluating Metrics
+2020-09-01 05:58:41,287:INFO:No inverse transformer found
+2020-09-01 05:58:41,287:INFO:Compiling Metrics
+2020-09-01 05:58:41,307:INFO:Initializing Fold 9
+2020-09-01 05:58:41,308:INFO:Total runtime is 1.4551884373029074 minutes
+2020-09-01 05:58:41,330:INFO:Fitting Model
+2020-09-01 05:58:42,812:INFO:Evaluating Metrics
+2020-09-01 05:58:42,908:INFO:No inverse transformer found
+2020-09-01 05:58:42,908:INFO:Compiling Metrics
+2020-09-01 05:58:42,940:INFO:Initializing Fold 10
+2020-09-01 05:58:42,941:INFO:Total runtime is 1.4824067155520122 minutes
+2020-09-01 05:58:42,965:INFO:Fitting Model
+2020-09-01 05:58:44,434:INFO:Evaluating Metrics
+2020-09-01 05:58:44,517:INFO:No inverse transformer found
+2020-09-01 05:58:44,517:INFO:Compiling Metrics
+2020-09-01 05:58:44,537:INFO:Calculating mean and std
+2020-09-01 05:58:44,538:INFO:Creating metrics dataframe
+2020-09-01 05:58:44,598:INFO:Initializing K Neighbors Regressor
+2020-09-01 05:58:44,616:INFO:Initializing Fold 1
+2020-09-01 05:58:44,618:INFO:Total runtime is 1.5103440602620444 minutes
+2020-09-01 05:58:44,645:INFO:Fitting Model
+2020-09-01 05:58:44,693:INFO:Evaluating Metrics
+2020-09-01 05:58:44,850:INFO:No inverse transformer found
+2020-09-01 05:58:44,850:INFO:Compiling Metrics
+2020-09-01 05:58:44,885:INFO:Initializing Fold 2
+2020-09-01 05:58:44,887:INFO:Total runtime is 1.5148296515146893 minutes
+2020-09-01 05:58:44,923:INFO:Fitting Model
+2020-09-01 05:58:44,946:INFO:Evaluating Metrics
+2020-09-01 05:58:45,055:INFO:No inverse transformer found
+2020-09-01 05:58:45,056:INFO:Compiling Metrics
+2020-09-01 05:58:45,079:INFO:Initializing Fold 3
+2020-09-01 05:58:45,080:INFO:Total runtime is 1.5180465022722882 minutes
+2020-09-01 05:58:45,104:INFO:Fitting Model
+2020-09-01 05:58:45,125:INFO:Evaluating Metrics
+2020-09-01 05:58:45,234:INFO:No inverse transformer found
+2020-09-01 05:58:45,234:INFO:Compiling Metrics
+2020-09-01 05:58:45,265:INFO:Initializing Fold 4
+2020-09-01 05:58:45,266:INFO:Total runtime is 1.5211506644884747 minutes
+2020-09-01 05:58:45,295:INFO:Fitting Model
+2020-09-01 05:58:45,324:INFO:Evaluating Metrics
+2020-09-01 05:58:45,434:INFO:No inverse transformer found
+2020-09-01 05:58:45,434:INFO:Compiling Metrics
+2020-09-01 05:58:45,462:INFO:Initializing Fold 5
+2020-09-01 05:58:45,464:INFO:Total runtime is 1.5244503219922385 minutes
+2020-09-01 05:58:45,490:INFO:Fitting Model
+2020-09-01 05:58:45,515:INFO:Evaluating Metrics
+2020-09-01 05:58:45,625:INFO:No inverse transformer found
+2020-09-01 05:58:45,625:INFO:Compiling Metrics
+2020-09-01 05:58:45,663:INFO:Initializing Fold 6
+2020-09-01 05:58:45,664:INFO:Total runtime is 1.5277841965357464 minutes
+2020-09-01 05:58:45,695:INFO:Fitting Model
+2020-09-01 05:58:45,721:INFO:Evaluating Metrics
+2020-09-01 05:58:45,831:INFO:No inverse transformer found
+2020-09-01 05:58:45,831:INFO:Compiling Metrics
+2020-09-01 05:58:45,856:INFO:Initializing Fold 7
+2020-09-01 05:58:45,858:INFO:Total runtime is 1.5310098171234132 minutes
+2020-09-01 05:58:45,881:INFO:Fitting Model
+2020-09-01 05:58:45,906:INFO:Evaluating Metrics
+2020-09-01 05:58:46,015:INFO:No inverse transformer found
+2020-09-01 05:58:46,015:INFO:Compiling Metrics
+2020-09-01 05:58:46,042:INFO:Initializing Fold 8
+2020-09-01 05:58:46,043:INFO:Total runtime is 1.5341065605481468 minutes
+2020-09-01 05:58:46,065:INFO:Fitting Model
+2020-09-01 05:58:46,084:INFO:Evaluating Metrics
+2020-09-01 05:58:46,191:INFO:No inverse transformer found
+2020-09-01 05:58:46,191:INFO:Compiling Metrics
+2020-09-01 05:58:46,214:INFO:Initializing Fold 9
+2020-09-01 05:58:46,215:INFO:Total runtime is 1.536963740984599 minutes
+2020-09-01 05:58:46,239:INFO:Fitting Model
+2020-09-01 05:58:46,256:INFO:Evaluating Metrics
+2020-09-01 05:58:46,364:INFO:No inverse transformer found
+2020-09-01 05:58:46,364:INFO:Compiling Metrics
+2020-09-01 05:58:46,391:INFO:Initializing Fold 10
+2020-09-01 05:58:46,392:INFO:Total runtime is 1.5399117072423303 minutes
+2020-09-01 05:58:46,413:INFO:Fitting Model
+2020-09-01 05:58:46,433:INFO:Evaluating Metrics
+2020-09-01 05:58:46,539:INFO:No inverse transformer found
+2020-09-01 05:58:46,540:INFO:Compiling Metrics
+2020-09-01 05:58:46,561:INFO:Calculating mean and std
+2020-09-01 05:58:46,562:INFO:Creating metrics dataframe
+2020-09-01 05:58:46,625:INFO:Initializing Decision Tree
+2020-09-01 05:58:46,649:INFO:Initializing Fold 1
+2020-09-01 05:58:46,650:INFO:Total runtime is 1.5442150553067528 minutes
+2020-09-01 05:58:46,672:INFO:Fitting Model
+2020-09-01 05:58:46,712:INFO:Evaluating Metrics
+2020-09-01 05:58:46,715:INFO:No inverse transformer found
+2020-09-01 05:58:46,715:INFO:Compiling Metrics
+2020-09-01 05:58:46,736:INFO:Initializing Fold 2
+2020-09-01 05:58:46,737:INFO:Total runtime is 1.5456670443216962 minutes
+2020-09-01 05:58:46,759:INFO:Fitting Model
+2020-09-01 05:58:46,787:INFO:Evaluating Metrics
+2020-09-01 05:58:46,791:INFO:No inverse transformer found
+2020-09-01 05:58:46,792:INFO:Compiling Metrics
+2020-09-01 05:58:46,822:INFO:Initializing Fold 3
+2020-09-01 05:58:46,823:INFO:Total runtime is 1.5470927397410077 minutes
+2020-09-01 05:58:46,847:INFO:Fitting Model
+2020-09-01 05:58:46,873:INFO:Evaluating Metrics
+2020-09-01 05:58:46,878:INFO:No inverse transformer found
+2020-09-01 05:58:46,878:INFO:Compiling Metrics
+2020-09-01 05:58:46,903:INFO:Initializing Fold 4
+2020-09-01 05:58:46,904:INFO:Total runtime is 1.5484536131223046 minutes
+2020-09-01 05:58:46,930:INFO:Fitting Model
+2020-09-01 05:58:46,957:INFO:Evaluating Metrics
+2020-09-01 05:58:46,962:INFO:No inverse transformer found
+2020-09-01 05:58:46,962:INFO:Compiling Metrics
+2020-09-01 05:58:46,994:INFO:Initializing Fold 5
+2020-09-01 05:58:46,995:INFO:Total runtime is 1.5499718308448793 minutes
+2020-09-01 05:58:47,027:INFO:Fitting Model
+2020-09-01 05:58:47,052:INFO:Evaluating Metrics
+2020-09-01 05:58:47,057:INFO:No inverse transformer found
+2020-09-01 05:58:47,057:INFO:Compiling Metrics
+2020-09-01 05:58:47,087:INFO:Initializing Fold 6
+2020-09-01 05:58:47,089:INFO:Total runtime is 1.5515308101971945 minutes
+2020-09-01 05:58:47,115:INFO:Fitting Model
+2020-09-01 05:58:47,137:INFO:Evaluating Metrics
+2020-09-01 05:58:47,142:INFO:No inverse transformer found
+2020-09-01 05:58:47,142:INFO:Compiling Metrics
+2020-09-01 05:58:47,172:INFO:Initializing Fold 7
+2020-09-01 05:58:47,174:INFO:Total runtime is 1.5529426415761314 minutes
+2020-09-01 05:58:47,196:INFO:Fitting Model
+2020-09-01 05:58:47,221:INFO:Evaluating Metrics
+2020-09-01 05:58:47,227:INFO:No inverse transformer found
+2020-09-01 05:58:47,227:INFO:Compiling Metrics
+2020-09-01 05:58:47,259:INFO:Initializing Fold 8
+2020-09-01 05:58:47,261:INFO:Total runtime is 1.554402804374695 minutes
+2020-09-01 05:58:47,289:INFO:Fitting Model
+2020-09-01 05:58:47,313:INFO:Evaluating Metrics
+2020-09-01 05:58:47,319:INFO:No inverse transformer found
+2020-09-01 05:58:47,319:INFO:Compiling Metrics
+2020-09-01 05:58:47,349:INFO:Initializing Fold 9
+2020-09-01 05:58:47,350:INFO:Total runtime is 1.5558897932370506 minutes
+2020-09-01 05:58:47,380:INFO:Fitting Model
+2020-09-01 05:58:47,405:INFO:Evaluating Metrics
+2020-09-01 05:58:47,408:INFO:No inverse transformer found
+2020-09-01 05:58:47,408:INFO:Compiling Metrics
+2020-09-01 05:58:47,438:INFO:Initializing Fold 10
+2020-09-01 05:58:47,440:INFO:Total runtime is 1.5573795398076378 minutes
+2020-09-01 05:58:47,470:INFO:Fitting Model
+2020-09-01 05:58:47,499:INFO:Evaluating Metrics
+2020-09-01 05:58:47,505:INFO:No inverse transformer found
+2020-09-01 05:58:47,505:INFO:Compiling Metrics
+2020-09-01 05:58:47,538:INFO:Calculating mean and std
+2020-09-01 05:58:47,539:INFO:Creating metrics dataframe
+2020-09-01 05:58:47,672:INFO:Initializing Random Forest
+2020-09-01 05:58:47,703:INFO:Initializing Fold 1
+2020-09-01 05:58:47,704:INFO:Total runtime is 1.5617855866750083 minutes
+2020-09-01 05:58:47,731:INFO:Fitting Model
+2020-09-01 05:58:49,022:INFO:Evaluating Metrics
+2020-09-01 05:58:49,132:INFO:No inverse transformer found
+2020-09-01 05:58:49,132:INFO:Compiling Metrics
+2020-09-01 05:58:49,167:INFO:Initializing Fold 2
+2020-09-01 05:58:49,169:INFO:Total runtime is 1.5861921310424807 minutes
+2020-09-01 05:58:49,200:INFO:Fitting Model
+2020-09-01 05:58:50,124:INFO:Evaluating Metrics
+2020-09-01 05:58:50,236:INFO:No inverse transformer found
+2020-09-01 05:58:50,236:INFO:Compiling Metrics
+2020-09-01 05:58:50,269:INFO:Initializing Fold 3
+2020-09-01 05:58:50,271:INFO:Total runtime is 1.604566323757172 minutes
+2020-09-01 05:58:50,300:INFO:Fitting Model
+2020-09-01 05:58:51,229:INFO:Evaluating Metrics
+2020-09-01 05:58:51,339:INFO:No inverse transformer found
+2020-09-01 05:58:51,339:INFO:Compiling Metrics
+2020-09-01 05:58:51,374:INFO:Initializing Fold 4
+2020-09-01 05:58:51,375:INFO:Total runtime is 1.6229675134023034 minutes
+2020-09-01 05:58:51,407:INFO:Fitting Model
+2020-09-01 05:58:52,353:INFO:Evaluating Metrics
+2020-09-01 05:58:52,466:INFO:No inverse transformer found
+2020-09-01 05:58:52,466:INFO:Compiling Metrics
+2020-09-01 05:58:52,489:INFO:Initializing Fold 5
+2020-09-01 05:58:52,490:INFO:Total runtime is 1.6415479063987735 minutes
+2020-09-01 05:58:52,515:INFO:Fitting Model
+2020-09-01 05:58:53,498:INFO:Evaluating Metrics
+2020-09-01 05:58:53,608:INFO:No inverse transformer found
+2020-09-01 05:58:53,608:INFO:Compiling Metrics
+2020-09-01 05:58:53,636:INFO:Initializing Fold 6
+2020-09-01 05:58:53,637:INFO:Total runtime is 1.660666879018148 minutes
+2020-09-01 05:58:53,670:INFO:Fitting Model
+2020-09-01 05:58:54,358:INFO:Evaluating Metrics
+2020-09-01 05:58:54,465:INFO:No inverse transformer found
+2020-09-01 05:58:54,465:INFO:Compiling Metrics
+2020-09-01 05:58:54,491:INFO:Initializing Fold 7
+2020-09-01 05:58:54,492:INFO:Total runtime is 1.6749234199523928 minutes
+2020-09-01 05:58:54,516:INFO:Fitting Model
+2020-09-01 05:58:55,495:INFO:Evaluating Metrics
+2020-09-01 05:58:55,604:INFO:No inverse transformer found
+2020-09-01 05:58:55,604:INFO:Compiling Metrics
+2020-09-01 05:58:55,637:INFO:Initializing Fold 8
+2020-09-01 05:58:55,638:INFO:Total runtime is 1.6940156300862632 minutes
+2020-09-01 05:58:55,666:INFO:Fitting Model
+2020-09-01 05:58:56,467:INFO:Evaluating Metrics
+2020-09-01 05:58:56,576:INFO:No inverse transformer found
+2020-09-01 05:58:56,576:INFO:Compiling Metrics
+2020-09-01 05:58:56,599:INFO:Initializing Fold 9
+2020-09-01 05:58:56,600:INFO:Total runtime is 1.7100491841634116 minutes
+2020-09-01 05:58:56,624:INFO:Fitting Model
+2020-09-01 05:58:57,753:INFO:Evaluating Metrics
+2020-09-01 05:58:57,861:INFO:No inverse transformer found
+2020-09-01 05:58:57,862:INFO:Compiling Metrics
+2020-09-01 05:58:57,889:INFO:Initializing Fold 10
+2020-09-01 05:58:57,890:INFO:Total runtime is 1.731552243232727 minutes
+2020-09-01 05:58:57,913:INFO:Fitting Model
+2020-09-01 05:58:58,801:INFO:Evaluating Metrics
+2020-09-01 05:58:58,910:INFO:No inverse transformer found
+2020-09-01 05:58:58,910:INFO:Compiling Metrics
+2020-09-01 05:58:58,933:INFO:Calculating mean and std
+2020-09-01 05:58:58,934:INFO:Creating metrics dataframe
+2020-09-01 05:58:59,009:INFO:Initializing Extra Trees Regressor
+2020-09-01 05:58:59,037:INFO:Initializing Fold 1
+2020-09-01 05:58:59,038:INFO:Total runtime is 1.750684130191803 minutes
+2020-09-01 05:58:59,069:INFO:Fitting Model
+2020-09-01 05:58:59,972:INFO:Evaluating Metrics
+2020-09-01 05:59:00,079:INFO:No inverse transformer found
+2020-09-01 05:59:00,080:INFO:Compiling Metrics
+2020-09-01 05:59:00,106:INFO:Initializing Fold 2
+2020-09-01 05:59:00,107:INFO:Total runtime is 1.7684988896052043 minutes
+2020-09-01 05:59:00,131:INFO:Fitting Model
+2020-09-01 05:59:01,130:INFO:Evaluating Metrics
+2020-09-01 05:59:01,239:INFO:No inverse transformer found
+2020-09-01 05:59:01,239:INFO:Compiling Metrics
+2020-09-01 05:59:01,269:INFO:Initializing Fold 3
+2020-09-01 05:59:01,270:INFO:Total runtime is 1.7878904819488526 minutes
+2020-09-01 05:59:01,301:INFO:Fitting Model
+2020-09-01 05:59:02,136:INFO:Evaluating Metrics
+2020-09-01 05:59:02,243:INFO:No inverse transformer found
+2020-09-01 05:59:02,243:INFO:Compiling Metrics
+2020-09-01 05:59:02,265:INFO:Initializing Fold 4
+2020-09-01 05:59:02,266:INFO:Total runtime is 1.8044761697451275 minutes
+2020-09-01 05:59:02,289:INFO:Fitting Model
+2020-09-01 05:59:03,406:INFO:Evaluating Metrics
+2020-09-01 05:59:03,513:INFO:No inverse transformer found
+2020-09-01 05:59:03,514:INFO:Compiling Metrics
+2020-09-01 05:59:03,541:INFO:Initializing Fold 5
+2020-09-01 05:59:03,542:INFO:Total runtime is 1.8257553458213807 minutes
+2020-09-01 05:59:03,568:INFO:Fitting Model
+2020-09-01 05:59:04,371:INFO:Evaluating Metrics
+2020-09-01 05:59:04,484:INFO:No inverse transformer found
+2020-09-01 05:59:04,484:INFO:Compiling Metrics
+2020-09-01 05:59:04,520:INFO:Initializing Fold 6
+2020-09-01 05:59:04,521:INFO:Total runtime is 1.842063041528066 minutes
+2020-09-01 05:59:04,547:INFO:Fitting Model
+2020-09-01 05:59:05,579:INFO:Evaluating Metrics
+2020-09-01 05:59:05,695:INFO:No inverse transformer found
+2020-09-01 05:59:05,695:INFO:Compiling Metrics
+2020-09-01 05:59:05,725:INFO:Initializing Fold 7
+2020-09-01 05:59:05,726:INFO:Total runtime is 1.862153947353363 minutes
+2020-09-01 05:59:05,766:INFO:Fitting Model
+2020-09-01 05:59:06,669:INFO:Evaluating Metrics
+2020-09-01 05:59:06,776:INFO:No inverse transformer found
+2020-09-01 05:59:06,776:INFO:Compiling Metrics
+2020-09-01 05:59:06,801:INFO:Initializing Fold 8
+2020-09-01 05:59:06,802:INFO:Total runtime is 1.880076777935028 minutes
+2020-09-01 05:59:06,826:INFO:Fitting Model
+2020-09-01 05:59:07,841:INFO:Evaluating Metrics
+2020-09-01 05:59:07,960:INFO:No inverse transformer found
+2020-09-01 05:59:07,961:INFO:Compiling Metrics
+2020-09-01 05:59:07,998:INFO:Initializing Fold 9
+2020-09-01 05:59:07,999:INFO:Total runtime is 1.900030243396759 minutes
+2020-09-01 05:59:08,029:INFO:Fitting Model
+2020-09-01 05:59:09,237:INFO:Evaluating Metrics
+2020-09-01 05:59:09,344:INFO:No inverse transformer found
+2020-09-01 05:59:09,344:INFO:Compiling Metrics
+2020-09-01 05:59:09,367:INFO:Initializing Fold 10
+2020-09-01 05:59:09,368:INFO:Total runtime is 1.9228463888168335 minutes
+2020-09-01 05:59:09,391:INFO:Fitting Model
+2020-09-01 05:59:10,389:INFO:Evaluating Metrics
+2020-09-01 05:59:10,498:INFO:No inverse transformer found
+2020-09-01 05:59:10,498:INFO:Compiling Metrics
+2020-09-01 05:59:10,530:INFO:Calculating mean and std
+2020-09-01 05:59:10,530:INFO:Creating metrics dataframe
+2020-09-01 05:59:10,632:INFO:Initializing AdaBoost Regressor
+2020-09-01 05:59:10,666:INFO:Initializing Fold 1
+2020-09-01 05:59:10,668:INFO:Total runtime is 1.9445090770721436 minutes
+2020-09-01 05:59:10,717:INFO:Fitting Model
+2020-09-01 05:59:11,099:INFO:Evaluating Metrics
+2020-09-01 05:59:11,111:INFO:No inverse transformer found
+2020-09-01 05:59:11,112:INFO:Compiling Metrics
+2020-09-01 05:59:11,133:INFO:Initializing Fold 2
+2020-09-01 05:59:11,134:INFO:Total runtime is 1.9522810737291971 minutes
+2020-09-01 05:59:11,155:INFO:Fitting Model
+2020-09-01 05:59:11,453:INFO:Evaluating Metrics
+2020-09-01 05:59:11,465:INFO:No inverse transformer found
+2020-09-01 05:59:11,466:INFO:Compiling Metrics
+2020-09-01 05:59:11,490:INFO:Initializing Fold 3
+2020-09-01 05:59:11,492:INFO:Total runtime is 1.9582487225532532 minutes
+2020-09-01 05:59:11,514:INFO:Fitting Model
+2020-09-01 05:59:11,804:INFO:Evaluating Metrics
+2020-09-01 05:59:11,817:INFO:No inverse transformer found
+2020-09-01 05:59:11,817:INFO:Compiling Metrics
+2020-09-01 05:59:11,837:INFO:Initializing Fold 4
+2020-09-01 05:59:11,838:INFO:Total runtime is 1.9640151460965476 minutes
+2020-09-01 05:59:11,859:INFO:Fitting Model
+2020-09-01 05:59:12,189:INFO:Evaluating Metrics
+2020-09-01 05:59:12,204:INFO:No inverse transformer found
+2020-09-01 05:59:12,204:INFO:Compiling Metrics
+2020-09-01 05:59:12,236:INFO:Initializing Fold 5
+2020-09-01 05:59:12,238:INFO:Total runtime is 1.9706750392913819 minutes
+2020-09-01 05:59:12,264:INFO:Fitting Model
+2020-09-01 05:59:12,623:INFO:Evaluating Metrics
+2020-09-01 05:59:12,644:INFO:No inverse transformer found
+2020-09-01 05:59:12,644:INFO:Compiling Metrics
+2020-09-01 05:59:12,679:INFO:Initializing Fold 6
+2020-09-01 05:59:12,680:INFO:Total runtime is 1.9780554294586181 minutes
+2020-09-01 05:59:12,709:INFO:Fitting Model
+2020-09-01 05:59:13,054:INFO:Evaluating Metrics
+2020-09-01 05:59:13,067:INFO:No inverse transformer found
+2020-09-01 05:59:13,067:INFO:Compiling Metrics
+2020-09-01 05:59:13,087:INFO:Initializing Fold 7
+2020-09-01 05:59:13,088:INFO:Total runtime is 1.9848511179288229 minutes
+2020-09-01 05:59:13,109:INFO:Fitting Model
+2020-09-01 05:59:13,397:INFO:Evaluating Metrics
+2020-09-01 05:59:13,413:INFO:No inverse transformer found
+2020-09-01 05:59:13,413:INFO:Compiling Metrics
+2020-09-01 05:59:13,445:INFO:Initializing Fold 8
+2020-09-01 05:59:13,447:INFO:Total runtime is 1.9908297816912333 minutes
+2020-09-01 05:59:13,471:INFO:Fitting Model
+2020-09-01 05:59:13,792:INFO:Evaluating Metrics
+2020-09-01 05:59:13,806:INFO:No inverse transformer found
+2020-09-01 05:59:13,806:INFO:Compiling Metrics
+2020-09-01 05:59:13,828:INFO:Initializing Fold 9
+2020-09-01 05:59:13,828:INFO:Total runtime is 1.9971902330716451 minutes
+2020-09-01 05:59:13,849:INFO:Fitting Model
+2020-09-01 05:59:14,213:INFO:Evaluating Metrics
+2020-09-01 05:59:14,233:INFO:No inverse transformer found
+2020-09-01 05:59:14,234:INFO:Compiling Metrics
+2020-09-01 05:59:14,260:INFO:Initializing Fold 10
+2020-09-01 05:59:14,261:INFO:Total runtime is 2.004404675960541 minutes
+2020-09-01 05:59:14,296:INFO:Fitting Model
+2020-09-01 05:59:14,731:INFO:Evaluating Metrics
+2020-09-01 05:59:14,749:INFO:No inverse transformer found
+2020-09-01 05:59:14,749:INFO:Compiling Metrics
+2020-09-01 05:59:14,776:INFO:Calculating mean and std
+2020-09-01 05:59:14,777:INFO:Creating metrics dataframe
+2020-09-01 05:59:14,858:INFO:Initializing Gradient Boosting Regressor
+2020-09-01 05:59:14,884:INFO:Initializing Fold 1
+2020-09-01 05:59:14,886:INFO:Total runtime is 2.014816443125407 minutes
+2020-09-01 05:59:14,913:INFO:Fitting Model
+2020-09-01 05:59:15,251:INFO:Evaluating Metrics
+2020-09-01 05:59:15,255:INFO:No inverse transformer found
+2020-09-01 05:59:15,255:INFO:Compiling Metrics
+2020-09-01 05:59:15,279:INFO:Initializing Fold 2
+2020-09-01 05:59:15,280:INFO:Total runtime is 2.021375664075216 minutes
+2020-09-01 05:59:15,306:INFO:Fitting Model
+2020-09-01 05:59:15,699:INFO:Evaluating Metrics
+2020-09-01 05:59:15,706:INFO:No inverse transformer found
+2020-09-01 05:59:15,706:INFO:Compiling Metrics
+2020-09-01 05:59:15,736:INFO:Initializing Fold 3
+2020-09-01 05:59:15,737:INFO:Total runtime is 2.0290064255396527 minutes
+2020-09-01 05:59:15,771:INFO:Fitting Model
+2020-09-01 05:59:16,176:INFO:Evaluating Metrics
+2020-09-01 05:59:16,182:INFO:No inverse transformer found
+2020-09-01 05:59:16,182:INFO:Compiling Metrics
+2020-09-01 05:59:16,214:INFO:Initializing Fold 4
+2020-09-01 05:59:16,216:INFO:Total runtime is 2.0369782606760665 minutes
+2020-09-01 05:59:16,246:INFO:Fitting Model
+2020-09-01 05:59:16,622:INFO:Evaluating Metrics
+2020-09-01 05:59:16,627:INFO:No inverse transformer found
+2020-09-01 05:59:16,627:INFO:Compiling Metrics
+2020-09-01 05:59:16,656:INFO:Initializing Fold 5
+2020-09-01 05:59:16,657:INFO:Total runtime is 2.044336521625519 minutes
+2020-09-01 05:59:16,678:INFO:Fitting Model
+2020-09-01 05:59:16,996:INFO:Evaluating Metrics
+2020-09-01 05:59:17,001:INFO:No inverse transformer found
+2020-09-01 05:59:17,002:INFO:Compiling Metrics
+2020-09-01 05:59:17,023:INFO:Initializing Fold 6
+2020-09-01 05:59:17,024:INFO:Total runtime is 2.050456257661184 minutes
+2020-09-01 05:59:17,045:INFO:Fitting Model
+2020-09-01 05:59:17,358:INFO:Evaluating Metrics
+2020-09-01 05:59:17,363:INFO:No inverse transformer found
+2020-09-01 05:59:17,363:INFO:Compiling Metrics
+2020-09-01 05:59:17,383:INFO:Initializing Fold 7
+2020-09-01 05:59:17,384:INFO:Total runtime is 2.05645014444987 minutes
+2020-09-01 05:59:17,404:INFO:Fitting Model
+2020-09-01 05:59:17,773:INFO:Evaluating Metrics
+2020-09-01 05:59:17,777:INFO:No inverse transformer found
+2020-09-01 05:59:17,777:INFO:Compiling Metrics
+2020-09-01 05:59:17,808:INFO:Initializing Fold 8
+2020-09-01 05:59:17,809:INFO:Total runtime is 2.0635298132896427 minutes
+2020-09-01 05:59:17,838:INFO:Fitting Model
+2020-09-01 05:59:18,253:INFO:Evaluating Metrics
+2020-09-01 05:59:18,259:INFO:No inverse transformer found
+2020-09-01 05:59:18,260:INFO:Compiling Metrics
+2020-09-01 05:59:18,289:INFO:Initializing Fold 9
+2020-09-01 05:59:18,291:INFO:Total runtime is 2.071560029188792 minutes
+2020-09-01 05:59:18,317:INFO:Fitting Model
+2020-09-01 05:59:18,676:INFO:Evaluating Metrics
+2020-09-01 05:59:18,680:INFO:No inverse transformer found
+2020-09-01 05:59:18,680:INFO:Compiling Metrics
+2020-09-01 05:59:18,702:INFO:Initializing Fold 10
+2020-09-01 05:59:18,703:INFO:Total runtime is 2.078429746627808 minutes
+2020-09-01 05:59:18,728:INFO:Fitting Model
+2020-09-01 05:59:19,061:INFO:Evaluating Metrics
+2020-09-01 05:59:19,065:INFO:No inverse transformer found
+2020-09-01 05:59:19,065:INFO:Compiling Metrics
+2020-09-01 05:59:19,086:INFO:Calculating mean and std
+2020-09-01 05:59:19,087:INFO:Creating metrics dataframe
+2020-09-01 05:59:19,153:INFO:Initializing Extreme Gradient Boosting
+2020-09-01 05:59:19,174:INFO:Initializing Fold 1
+2020-09-01 05:59:19,174:INFO:Total runtime is 2.0862908045450848 minutes
+2020-09-01 05:59:19,195:INFO:Fitting Model
+2020-09-01 05:59:19,825:INFO:Evaluating Metrics
+2020-09-01 05:59:19,832:INFO:No inverse transformer found
+2020-09-01 05:59:19,832:INFO:Compiling Metrics
+2020-09-01 05:59:19,859:INFO:Initializing Fold 2
+2020-09-01 05:59:19,860:INFO:Total runtime is 2.097722387313843 minutes
+2020-09-01 05:59:19,886:INFO:Fitting Model
+2020-09-01 05:59:20,495:INFO:Evaluating Metrics
+2020-09-01 05:59:20,500:INFO:No inverse transformer found
+2020-09-01 05:59:20,500:INFO:Compiling Metrics
+2020-09-01 05:59:20,526:INFO:Initializing Fold 3
+2020-09-01 05:59:20,527:INFO:Total runtime is 2.1088380575180055 minutes
+2020-09-01 05:59:20,551:INFO:Fitting Model
+2020-09-01 05:59:21,153:INFO:Evaluating Metrics
+2020-09-01 05:59:21,158:INFO:No inverse transformer found
+2020-09-01 05:59:21,158:INFO:Compiling Metrics
+2020-09-01 05:59:21,182:INFO:Initializing Fold 4
+2020-09-01 05:59:21,183:INFO:Total runtime is 2.119763751824697 minutes
+2020-09-01 05:59:21,205:INFO:Fitting Model
+2020-09-01 05:59:21,814:INFO:Evaluating Metrics
+2020-09-01 05:59:21,821:INFO:No inverse transformer found
+2020-09-01 05:59:21,821:INFO:Compiling Metrics
+2020-09-01 05:59:21,853:INFO:Initializing Fold 5
+2020-09-01 05:59:21,855:INFO:Total runtime is 2.130958334604899 minutes
+2020-09-01 05:59:21,877:INFO:Fitting Model
+2020-09-01 05:59:22,402:INFO:Evaluating Metrics
+2020-09-01 05:59:22,408:INFO:No inverse transformer found
+2020-09-01 05:59:22,408:INFO:Compiling Metrics
+2020-09-01 05:59:22,429:INFO:Initializing Fold 6
+2020-09-01 05:59:22,430:INFO:Total runtime is 2.1405505617459615 minutes
+2020-09-01 05:59:22,449:INFO:Fitting Model
+2020-09-01 05:59:22,978:INFO:Evaluating Metrics
+2020-09-01 05:59:22,985:INFO:No inverse transformer found
+2020-09-01 05:59:22,985:INFO:Compiling Metrics
+2020-09-01 05:59:23,007:INFO:Initializing Fold 7
+2020-09-01 05:59:23,008:INFO:Total runtime is 2.1501850406328837 minutes
+2020-09-01 05:59:23,029:INFO:Fitting Model
+2020-09-01 05:59:23,685:INFO:Evaluating Metrics
+2020-09-01 05:59:23,690:INFO:No inverse transformer found
+2020-09-01 05:59:23,690:INFO:Compiling Metrics
+2020-09-01 05:59:23,719:INFO:Initializing Fold 8
+2020-09-01 05:59:23,720:INFO:Total runtime is 2.16204571723938 minutes
+2020-09-01 05:59:23,747:INFO:Fitting Model
+2020-09-01 05:59:24,257:INFO:Evaluating Metrics
+2020-09-01 05:59:24,262:INFO:No inverse transformer found
+2020-09-01 05:59:24,262:INFO:Compiling Metrics
+2020-09-01 05:59:24,283:INFO:Initializing Fold 9
+2020-09-01 05:59:24,284:INFO:Total runtime is 2.171445898214976 minutes
+2020-09-01 05:59:24,304:INFO:Fitting Model
+2020-09-01 05:59:24,845:INFO:Evaluating Metrics
+2020-09-01 05:59:24,851:INFO:No inverse transformer found
+2020-09-01 05:59:24,852:INFO:Compiling Metrics
+2020-09-01 05:59:24,881:INFO:Initializing Fold 10
+2020-09-01 05:59:24,883:INFO:Total runtime is 2.181429465611776 minutes
+2020-09-01 05:59:24,911:INFO:Fitting Model
+2020-09-01 05:59:25,621:INFO:Evaluating Metrics
+2020-09-01 05:59:25,628:INFO:No inverse transformer found
+2020-09-01 05:59:25,628:INFO:Compiling Metrics
+2020-09-01 05:59:25,663:INFO:Calculating mean and std
+2020-09-01 05:59:25,664:INFO:Creating metrics dataframe
+2020-09-01 05:59:25,743:INFO:Initializing Light Gradient Boosting Machine
+2020-09-01 05:59:25,764:INFO:Initializing Fold 1
+2020-09-01 05:59:25,765:INFO:Total runtime is 2.196131495634715 minutes
+2020-09-01 05:59:25,786:INFO:Fitting Model
+2020-09-01 05:59:25,886:INFO:Evaluating Metrics
+2020-09-01 05:59:25,893:INFO:No inverse transformer found
+2020-09-01 05:59:25,893:INFO:Compiling Metrics
+2020-09-01 05:59:25,914:INFO:Initializing Fold 2
+2020-09-01 05:59:25,915:INFO:Total runtime is 2.1986292719841005 minutes
+2020-09-01 05:59:25,936:INFO:Fitting Model
+2020-09-01 05:59:26,032:INFO:Evaluating Metrics
+2020-09-01 05:59:26,039:INFO:No inverse transformer found
+2020-09-01 05:59:26,040:INFO:Compiling Metrics
+2020-09-01 05:59:26,061:INFO:Initializing Fold 3
+2020-09-01 05:59:26,062:INFO:Total runtime is 2.201080044110616 minutes
+2020-09-01 05:59:26,084:INFO:Fitting Model
+2020-09-01 05:59:26,195:INFO:Evaluating Metrics
+2020-09-01 05:59:26,203:INFO:No inverse transformer found
+2020-09-01 05:59:26,203:INFO:Compiling Metrics
+2020-09-01 05:59:26,228:INFO:Initializing Fold 4
+2020-09-01 05:59:26,230:INFO:Total runtime is 2.203877333799998 minutes
+2020-09-01 05:59:26,254:INFO:Fitting Model
+2020-09-01 05:59:26,357:INFO:Evaluating Metrics
+2020-09-01 05:59:26,364:INFO:No inverse transformer found
+2020-09-01 05:59:26,364:INFO:Compiling Metrics
+2020-09-01 05:59:26,387:INFO:Initializing Fold 5
+2020-09-01 05:59:26,388:INFO:Total runtime is 2.20651726325353 minutes
+2020-09-01 05:59:26,412:INFO:Fitting Model
+2020-09-01 05:59:26,509:INFO:Evaluating Metrics
+2020-09-01 05:59:26,516:INFO:No inverse transformer found
+2020-09-01 05:59:26,517:INFO:Compiling Metrics
+2020-09-01 05:59:26,537:INFO:Initializing Fold 6
+2020-09-01 05:59:26,538:INFO:Total runtime is 2.2090145349502563 minutes
+2020-09-01 05:59:26,559:INFO:Fitting Model
+2020-09-01 05:59:26,677:INFO:Evaluating Metrics
+2020-09-01 05:59:26,686:INFO:No inverse transformer found
+2020-09-01 05:59:26,686:INFO:Compiling Metrics
+2020-09-01 05:59:26,717:INFO:Initializing Fold 7
+2020-09-01 05:59:26,718:INFO:Total runtime is 2.2120185494422913 minutes
+2020-09-01 05:59:26,751:INFO:Fitting Model
+2020-09-01 05:59:26,884:INFO:Evaluating Metrics
+2020-09-01 05:59:26,893:INFO:No inverse transformer found
+2020-09-01 05:59:26,893:INFO:Compiling Metrics
+2020-09-01 05:59:26,924:INFO:Initializing Fold 8
+2020-09-01 05:59:26,925:INFO:Total runtime is 2.2154720544815065 minutes
+2020-09-01 05:59:26,956:INFO:Fitting Model
+2020-09-01 05:59:27,071:INFO:Evaluating Metrics
+2020-09-01 05:59:27,079:INFO:No inverse transformer found
+2020-09-01 05:59:27,079:INFO:Compiling Metrics
+2020-09-01 05:59:27,104:INFO:Initializing Fold 9
+2020-09-01 05:59:27,106:INFO:Total runtime is 2.2184765934944153 minutes
+2020-09-01 05:59:27,138:INFO:Fitting Model
+2020-09-01 05:59:27,274:INFO:Evaluating Metrics
+2020-09-01 05:59:27,283:INFO:No inverse transformer found
+2020-09-01 05:59:27,284:INFO:Compiling Metrics
+2020-09-01 05:59:27,314:INFO:Initializing Fold 10
+2020-09-01 05:59:27,316:INFO:Total runtime is 2.221974543730418 minutes
+2020-09-01 05:59:27,344:INFO:Fitting Model
+2020-09-01 05:59:27,476:INFO:Evaluating Metrics
+2020-09-01 05:59:27,485:INFO:No inverse transformer found
+2020-09-01 05:59:27,485:INFO:Compiling Metrics
+2020-09-01 05:59:27,514:INFO:Calculating mean and std
+2020-09-01 05:59:27,515:INFO:Creating metrics dataframe
+2020-09-01 05:59:27,585:INFO:Initializing CatBoost Regressor
+2020-09-01 05:59:27,614:INFO:Initializing Fold 1
+2020-09-01 05:59:27,615:INFO:Total runtime is 2.2269587596257527 minutes
+2020-09-01 05:59:27,643:INFO:Fitting Model
+2020-09-01 05:59:30,121:INFO:Evaluating Metrics
+2020-09-01 05:59:30,128:INFO:No inverse transformer found
+2020-09-01 05:59:30,128:INFO:Compiling Metrics
+2020-09-01 05:59:30,154:INFO:Initializing Fold 2
+2020-09-01 05:59:30,156:INFO:Total runtime is 2.2693174640337626 minutes
+2020-09-01 05:59:30,181:INFO:Fitting Model
+2020-09-01 05:59:33,153:INFO:Evaluating Metrics
+2020-09-01 05:59:33,159:INFO:No inverse transformer found
+2020-09-01 05:59:33,160:INFO:Compiling Metrics
+2020-09-01 05:59:33,187:INFO:Initializing Fold 3
+2020-09-01 05:59:33,188:INFO:Total runtime is 2.3198444207509357 minutes
+2020-09-01 05:59:33,216:INFO:Fitting Model
+2020-09-01 05:59:35,732:INFO:Evaluating Metrics
+2020-09-01 05:59:35,742:INFO:No inverse transformer found
+2020-09-01 05:59:35,742:INFO:Compiling Metrics
+2020-09-01 05:59:35,772:INFO:Initializing Fold 4
+2020-09-01 05:59:35,773:INFO:Total runtime is 2.362933055559794 minutes
+2020-09-01 05:59:35,796:INFO:Fitting Model
+2020-09-01 05:59:38,130:INFO:Evaluating Metrics
+2020-09-01 05:59:38,138:INFO:No inverse transformer found
+2020-09-01 05:59:38,139:INFO:Compiling Metrics
+2020-09-01 05:59:38,172:INFO:Initializing Fold 5
+2020-09-01 05:59:38,174:INFO:Total runtime is 2.402946841716766 minutes
+2020-09-01 05:59:38,215:INFO:Fitting Model
+2020-09-01 05:59:41,462:INFO:Evaluating Metrics
+2020-09-01 05:59:41,469:INFO:No inverse transformer found
+2020-09-01 05:59:41,469:INFO:Compiling Metrics
+2020-09-01 05:59:41,491:INFO:Initializing Fold 6
+2020-09-01 05:59:41,492:INFO:Total runtime is 2.4582544207572936 minutes
+2020-09-01 05:59:41,514:INFO:Fitting Model
+2020-09-01 05:59:43,971:INFO:Evaluating Metrics
+2020-09-01 05:59:43,978:INFO:No inverse transformer found
+2020-09-01 05:59:43,978:INFO:Compiling Metrics
+2020-09-01 05:59:43,999:INFO:Initializing Fold 7
+2020-09-01 05:59:44,000:INFO:Total runtime is 2.500057331720988 minutes
+2020-09-01 05:59:44,022:INFO:Fitting Model
+2020-09-01 05:59:46,943:INFO:Evaluating Metrics
+2020-09-01 05:59:46,951:INFO:No inverse transformer found
+2020-09-01 05:59:46,951:INFO:Compiling Metrics
+2020-09-01 05:59:46,984:INFO:Initializing Fold 8
+2020-09-01 05:59:46,985:INFO:Total runtime is 2.549802029132843 minutes
+2020-09-01 05:59:47,013:INFO:Fitting Model
+2020-09-01 05:59:49,866:INFO:Evaluating Metrics
+2020-09-01 05:59:49,878:INFO:No inverse transformer found
+2020-09-01 05:59:49,878:INFO:Compiling Metrics
+2020-09-01 05:59:49,911:INFO:Initializing Fold 9
+2020-09-01 05:59:49,912:INFO:Total runtime is 2.598581886291504 minutes
+2020-09-01 05:59:49,945:INFO:Fitting Model
+2020-09-01 05:59:52,785:INFO:Evaluating Metrics
+2020-09-01 05:59:52,797:INFO:No inverse transformer found
+2020-09-01 05:59:52,798:INFO:Compiling Metrics
+2020-09-01 05:59:52,826:INFO:Initializing Fold 10
+2020-09-01 05:59:52,827:INFO:Total runtime is 2.6471707900365193 minutes
+2020-09-01 05:59:52,859:INFO:Fitting Model
+2020-09-01 05:59:55,446:INFO:Evaluating Metrics
+2020-09-01 05:59:55,452:INFO:No inverse transformer found
+2020-09-01 05:59:55,452:INFO:Compiling Metrics
+2020-09-01 05:59:55,474:INFO:Calculating mean and std
+2020-09-01 05:59:55,475:INFO:Creating metrics dataframe
+2020-09-01 05:59:55,587:INFO:Finalizing top_n models
+2020-09-01 05:59:55,587:INFO:SubProcess create_model() called ==================================
+2020-09-01 05:59:55,616:INFO:Initializing create_model()
+2020-09-01 05:59:55,616:INFO:create_model(estimator=catboost, ensemble=False, method=None, fold=10, round=4, cross_validation=True, verbose=False, system=False)
+2020-09-01 05:59:55,616:INFO:Checking exceptions
+2020-09-01 05:59:55,616:INFO:Preloading libraries
+2020-09-01 05:59:55,616:INFO:Preparing display monitor
+2020-09-01 05:59:55,633:INFO:Copying training dataset
+2020-09-01 05:59:55,634:INFO:Importing libraries
+2020-09-01 05:59:55,636:INFO:Defining folds
+2020-09-01 05:59:55,636:INFO:Declaring metric variables
+2020-09-01 05:59:55,637:INFO:CatBoost Regressor Imported succesfully
+2020-09-01 05:59:55,638:INFO:Checking ensemble method
+2020-09-01 05:59:55,639:INFO:Initializing Fold 1
+2020-09-01 05:59:55,643:INFO:Fitting Model
+2020-09-01 05:59:58,046:INFO:Evaluating Metrics
+2020-09-01 05:59:58,051:INFO:No inverse transformation
+2020-09-01 05:59:58,051:INFO:Compiling Metrics
+2020-09-01 05:59:58,063:INFO:Initializing Fold 2
+2020-09-01 05:59:58,067:INFO:Fitting Model
+2020-09-01 06:00:01,017:INFO:Evaluating Metrics
+2020-09-01 06:00:01,023:INFO:No inverse transformation
+2020-09-01 06:00:01,023:INFO:Compiling Metrics
+2020-09-01 06:00:01,040:INFO:Initializing Fold 3
+2020-09-01 06:00:01,043:INFO:Fitting Model
+2020-09-01 06:00:03,380:INFO:Evaluating Metrics
+2020-09-01 06:00:03,385:INFO:No inverse transformation
+2020-09-01 06:00:03,385:INFO:Compiling Metrics
+2020-09-01 06:00:03,397:INFO:Initializing Fold 4
+2020-09-01 06:00:03,401:INFO:Fitting Model
+2020-09-01 06:00:06,321:INFO:Evaluating Metrics
+2020-09-01 06:00:06,329:INFO:No inverse transformation
+2020-09-01 06:00:06,329:INFO:Compiling Metrics
+2020-09-01 06:00:06,347:INFO:Initializing Fold 5
+2020-09-01 06:00:06,351:INFO:Fitting Model
+2020-09-01 06:00:09,287:INFO:Evaluating Metrics
+2020-09-01 06:00:09,296:INFO:No inverse transformation
+2020-09-01 06:00:09,297:INFO:Compiling Metrics
+2020-09-01 06:00:09,310:INFO:Initializing Fold 6
+2020-09-01 06:00:09,313:INFO:Fitting Model
+2020-09-01 06:00:12,163:INFO:Evaluating Metrics
+2020-09-01 06:00:12,169:INFO:No inverse transformation
+2020-09-01 06:00:12,169:INFO:Compiling Metrics
+2020-09-01 06:00:12,182:INFO:Initializing Fold 7
+2020-09-01 06:00:12,186:INFO:Fitting Model
+2020-09-01 06:00:15,002:INFO:Evaluating Metrics
+2020-09-01 06:00:15,016:INFO:No inverse transformation
+2020-09-01 06:00:15,016:INFO:Compiling Metrics
+2020-09-01 06:00:15,037:INFO:Initializing Fold 8
+2020-09-01 06:00:15,044:INFO:Fitting Model
+2020-09-01 06:00:17,976:INFO:Evaluating Metrics
+2020-09-01 06:00:17,982:INFO:No inverse transformation
+2020-09-01 06:00:17,982:INFO:Compiling Metrics
+2020-09-01 06:00:17,994:INFO:Initializing Fold 9
+2020-09-01 06:00:17,997:INFO:Fitting Model
+2020-09-01 06:00:21,970:INFO:Evaluating Metrics
+2020-09-01 06:00:21,981:INFO:No inverse transformation
+2020-09-01 06:00:21,981:INFO:Compiling Metrics
+2020-09-01 06:00:22,005:INFO:Initializing Fold 10
+2020-09-01 06:00:22,009:INFO:Fitting Model
+2020-09-01 06:00:25,806:INFO:Evaluating Metrics
+2020-09-01 06:00:25,817:INFO:No inverse transformation
+2020-09-01 06:00:25,817:INFO:Compiling Metrics
+2020-09-01 06:00:25,842:INFO:Calculating mean and std
+2020-09-01 06:00:25,845:INFO:Creating metrics dataframe
+2020-09-01 06:00:25,853:INFO:Finalizing model
+2020-09-01 06:00:28,519:INFO:Uploading results into container
+2020-09-01 06:00:28,519:INFO:Uploading model into container
+2020-09-01 06:00:28,519:INFO:create_model_container: 1
+2020-09-01 06:00:28,519:INFO:master_model_container: 1
+2020-09-01 06:00:28,519:INFO:display_container: 1
+2020-09-01 06:00:28,519:INFO:<catboost.core.CatBoostRegressor object at 0x7f2a5b809f28>
+2020-09-01 06:00:28,520:INFO:create_model() succesfully completed......................................
+2020-09-01 06:00:28,520:INFO:SubProcess create_model() end ==================================
+2020-09-01 06:00:28,737:INFO:create_model_container: 1
+2020-09-01 06:00:28,737:INFO:master_model_container: 1
+2020-09-01 06:00:28,737:INFO:display_container: 2
+2020-09-01 06:00:28,737:INFO:<catboost.core.CatBoostRegressor object at 0x7f2a5b809f28>
+2020-09-01 06:00:28,737:INFO:compare_models() succesfully completed......................................
+2020-09-01 06:04:00,739:INFO:Initializing tune_model()
+2020-09-01 06:04:00,739:INFO:tune_model(estimator=<catboost.core.CatBoostRegressor object at 0x7f2a5b809f28>, fold=10, round=4, n_iter=10, custom_grid=None, optimize=R2, choose_better=False, verbose=True)
+2020-09-01 06:04:00,739:INFO:Checking exceptions
+2020-09-01 06:04:00,740:INFO:Preloading libraries
+2020-09-01 06:04:00,740:INFO:Preparing display monitor
+2020-09-01 06:04:00,837:INFO:Copying training dataset
+2020-09-01 06:04:00,839:INFO:Creating estimator clone to inherit model parameters
+2020-09-01 06:04:00,840:INFO:Importing libraries
+2020-09-01 06:04:00,841:INFO:Checking base model
+2020-09-01 06:04:00,841:INFO:Base model : CatBoost Regressor
+2020-09-01 06:04:00,843:INFO:Defining folds
+2020-09-01 06:04:00,843:INFO:Declaring metric variables
+2020-09-01 06:04:00,869:INFO:Defining Hyperparameters
+2020-09-01 06:04:00,870:INFO:Initializing RandomizedSearchCV
+2020-09-01 06:04:36,343:INFO:Random search completed
+2020-09-01 06:04:36,366:INFO:Initializing Fold 1
+2020-09-01 06:04:36,390:INFO:Fitting Model
+2020-09-01 06:04:36,585:INFO:Evaluating Metrics
+2020-09-01 06:04:36,593:INFO:Compiling Metrics
+2020-09-01 06:04:36,707:INFO:Initializing Fold 2
+2020-09-01 06:04:36,740:INFO:Fitting Model
+2020-09-01 06:04:36,978:INFO:Evaluating Metrics
+2020-09-01 06:04:36,988:INFO:Compiling Metrics
+2020-09-01 06:04:37,113:INFO:Initializing Fold 3
+2020-09-01 06:04:37,145:INFO:Fitting Model
+2020-09-01 06:04:37,519:INFO:Evaluating Metrics
+2020-09-01 06:04:37,528:INFO:Compiling Metrics
+2020-09-01 06:04:37,649:INFO:Initializing Fold 4
+2020-09-01 06:04:37,687:INFO:Fitting Model
+2020-09-01 06:04:37,892:INFO:Evaluating Metrics
+2020-09-01 06:04:37,899:INFO:Compiling Metrics
+2020-09-01 06:04:38,009:INFO:Initializing Fold 5
+2020-09-01 06:04:38,039:INFO:Fitting Model
+2020-09-01 06:04:38,285:INFO:Evaluating Metrics
+2020-09-01 06:04:38,294:INFO:Compiling Metrics
+2020-09-01 06:04:38,391:INFO:Initializing Fold 6
+2020-09-01 06:04:38,445:INFO:Fitting Model
+2020-09-01 06:04:39,162:INFO:Evaluating Metrics
+2020-09-01 06:04:39,180:INFO:Compiling Metrics
+2020-09-01 06:04:39,325:INFO:Initializing Fold 7
+2020-09-01 06:04:39,361:INFO:Fitting Model
+2020-09-01 06:04:39,597:INFO:Evaluating Metrics
+2020-09-01 06:04:39,605:INFO:Compiling Metrics
+2020-09-01 06:04:39,784:INFO:Initializing Fold 8
+2020-09-01 06:04:39,823:INFO:Fitting Model
+2020-09-01 06:04:40,103:INFO:Evaluating Metrics
+2020-09-01 06:04:40,110:INFO:Compiling Metrics
+2020-09-01 06:04:40,219:INFO:Initializing Fold 9
+2020-09-01 06:04:40,258:INFO:Fitting Model
+2020-09-01 06:04:40,682:INFO:Evaluating Metrics
+2020-09-01 06:04:40,694:INFO:Compiling Metrics
+2020-09-01 06:04:40,811:INFO:Initializing Fold 10
+2020-09-01 06:04:40,838:INFO:Fitting Model
+2020-09-01 06:04:41,102:INFO:Evaluating Metrics
+2020-09-01 06:04:41,110:INFO:Compiling Metrics
+2020-09-01 06:04:41,245:INFO:Calculating mean and std
+2020-09-01 06:04:41,248:INFO:Creating metrics dataframe
+2020-09-01 06:04:41,295:INFO:Finalizing model
+2020-09-01 06:04:41,676:INFO:Uploading results into container
+2020-09-01 06:04:41,676:INFO:Uploading model into container
+2020-09-01 06:04:41,750:INFO:create_model_container: 2
+2020-09-01 06:04:41,751:INFO:master_model_container: 2
+2020-09-01 06:04:41,751:INFO:display_container: 3
+2020-09-01 06:04:41,751:INFO:<catboost.core.CatBoostRegressor object at 0x7f2ac03bfe48>
+2020-09-01 06:04:41,751:INFO:tune_model() succesfully completed......................................
+2020-09-01 06:05:31,091:INFO:Initializing plot_model()
+2020-09-01 06:05:31,091:INFO:plot_model(estimator=<catboost.core.CatBoostRegressor object at 0x7f2ac03bfe48>, plot=parameter, save=False, verbose=True, system=True)
+2020-09-01 06:05:31,091:INFO:Checking exceptions
+2020-09-01 06:07:17,686:INFO:Initializing plot_model()
+2020-09-01 06:07:17,686:INFO:plot_model(estimator=<catboost.core.CatBoostRegressor object at 0x7f2a5b809f28>, plot=parameter, save=False, verbose=True, system=True)
+2020-09-01 06:07:17,686:INFO:Checking exceptions
+2020-09-01 06:07:38,482:INFO:Initializing interpret_model()
+2020-09-01 06:07:38,482:INFO:interpret_model(estimator=<catboost.core.CatBoostRegressor object at 0x7f2a5b809f28>, plot=summary, feature=None, observation=None)
+2020-09-01 06:07:38,483:INFO:Checking exceptions
+2020-09-01 06:07:38,485:ERROR:shap library not found. pip install shap to use interpret_model function.
+2020-09-01 06:08:24,354:INFO:Initializing interpret_model()
+2020-09-01 06:08:24,356:INFO:interpret_model(estimator=<catboost.core.CatBoostRegressor object at 0x7f2a5b809f28>, plot=summary, feature=None, observation=None)
+2020-09-01 06:08:24,359:INFO:Checking exceptions
+2020-09-01 06:08:24,547:INFO:Importing libraries
+2020-09-01 06:08:24,549:INFO:plot type: summary
+2020-09-01 06:08:24,551:INFO:Creating TreeExplainer
+2020-09-01 06:08:24,553:INFO:Compiling shap values
+2020-09-01 06:08:26,991:INFO:Visual Rendered Successfully
+2020-09-01 06:08:26,998:INFO:interpret_model() succesfully completed......................................
+2020-09-01 06:10:23,085:INFO:Initializing create_model()
+2020-09-01 06:10:23,086:INFO:create_model(estimator=lightgbm, ensemble=False, method=None, fold=10, round=4, cross_validation=True, verbose=True, system=True)
+2020-09-01 06:10:23,087:INFO:Checking exceptions
+2020-09-01 06:10:23,088:INFO:Preloading libraries
+2020-09-01 06:10:23,090:INFO:Preparing display monitor
+2020-09-01 06:10:23,167:INFO:Copying training dataset
+2020-09-01 06:10:23,171:INFO:Importing libraries
+2020-09-01 06:10:23,174:INFO:Defining folds
+2020-09-01 06:10:23,176:INFO:Declaring metric variables
+2020-09-01 06:10:23,202:INFO:Light Gradient Boosting Machine Imported succesfully
+2020-09-01 06:10:23,206:INFO:Checking ensemble method
+2020-09-01 06:10:23,238:INFO:Initializing Fold 1
+2020-09-01 06:10:23,259:INFO:Fitting Model
+2020-09-01 06:10:23,355:INFO:Evaluating Metrics
+2020-09-01 06:10:23,364:INFO:No inverse transformation
+2020-09-01 06:10:23,365:INFO:Compiling Metrics
+2020-09-01 06:10:23,434:INFO:Initializing Fold 2
+2020-09-01 06:10:23,462:INFO:Fitting Model
+2020-09-01 06:10:23,571:INFO:Evaluating Metrics
+2020-09-01 06:10:23,583:INFO:No inverse transformation
+2020-09-01 06:10:23,584:INFO:Compiling Metrics
+2020-09-01 06:10:23,658:INFO:Initializing Fold 3
+2020-09-01 06:10:23,678:INFO:Fitting Model
+2020-09-01 06:10:23,781:INFO:Evaluating Metrics
+2020-09-01 06:10:23,789:INFO:No inverse transformation
+2020-09-01 06:10:23,790:INFO:Compiling Metrics
+2020-09-01 06:10:23,862:INFO:Initializing Fold 4
+2020-09-01 06:10:23,882:INFO:Fitting Model
+2020-09-01 06:10:23,980:INFO:Evaluating Metrics
+2020-09-01 06:10:23,989:INFO:No inverse transformation
+2020-09-01 06:10:23,990:INFO:Compiling Metrics
+2020-09-01 06:10:24,058:INFO:Initializing Fold 5
+2020-09-01 06:10:24,080:INFO:Fitting Model
+2020-09-01 06:10:24,187:INFO:Evaluating Metrics
+2020-09-01 06:10:24,196:INFO:No inverse transformation
+2020-09-01 06:10:24,197:INFO:Compiling Metrics
+2020-09-01 06:10:24,303:INFO:Initializing Fold 6
+2020-09-01 06:10:24,325:INFO:Fitting Model
+2020-09-01 06:10:24,449:INFO:Evaluating Metrics
+2020-09-01 06:10:24,460:INFO:No inverse transformation
+2020-09-01 06:10:24,462:INFO:Compiling Metrics
+2020-09-01 06:10:24,569:INFO:Initializing Fold 7
+2020-09-01 06:10:24,597:INFO:Fitting Model
+2020-09-01 06:10:24,732:INFO:Evaluating Metrics
+2020-09-01 06:10:24,746:INFO:No inverse transformation
+2020-09-01 06:10:24,748:INFO:Compiling Metrics
+2020-09-01 06:10:24,842:INFO:Initializing Fold 8
+2020-09-01 06:10:24,872:INFO:Fitting Model
+2020-09-01 06:10:25,002:INFO:Evaluating Metrics
+2020-09-01 06:10:25,011:INFO:No inverse transformation
+2020-09-01 06:10:25,013:INFO:Compiling Metrics
+2020-09-01 06:10:25,089:INFO:Initializing Fold 9
+2020-09-01 06:10:25,114:INFO:Fitting Model
+2020-09-01 06:10:25,221:INFO:Evaluating Metrics
+2020-09-01 06:10:25,230:INFO:No inverse transformation
+2020-09-01 06:10:25,231:INFO:Compiling Metrics
+2020-09-01 06:10:25,312:INFO:Initializing Fold 10
+2020-09-01 06:10:25,338:INFO:Fitting Model
+2020-09-01 06:10:25,440:INFO:Evaluating Metrics
+2020-09-01 06:10:25,451:INFO:No inverse transformation
+2020-09-01 06:10:25,452:INFO:Compiling Metrics
+2020-09-01 06:10:25,542:INFO:Calculating mean and std
+2020-09-01 06:10:25,546:INFO:Creating metrics dataframe
+2020-09-01 06:10:25,576:INFO:Finalizing model
+2020-09-01 06:10:25,695:INFO:Uploading results into container
+2020-09-01 06:10:25,696:INFO:Uploading model into container
+2020-09-01 06:10:25,771:INFO:create_model_container: 3
+2020-09-01 06:10:25,772:INFO:master_model_container: 3
+2020-09-01 06:10:25,774:INFO:display_container: 5
+2020-09-01 06:10:25,776:INFO:LGBMRegressor(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+              importance_type='split', learning_rate=0.1, max_depth=-1,
+              min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+              n_estimators=100, n_jobs=-1, num_leaves=31, objective=None,
+              random_state=6621, reg_alpha=0.0, reg_lambda=0.0, silent=True,
+              subsample=1.0, subsample_for_bin=200000, subsample_freq=0)
+2020-09-01 06:10:25,777:INFO:create_model() succesfully completed......................................
+2020-09-01 06:10:38,820:INFO:Initializing tune_model()
+2020-09-01 06:10:38,823:INFO:tune_model(estimator=LGBMRegressor(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+              importance_type='split', learning_rate=0.1, max_depth=-1,
+              min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+              n_estimators=100, n_jobs=-1, num_leaves=31, objective=None,
+              random_state=6621, reg_alpha=0.0, reg_lambda=0.0, silent=True,
+              subsample=1.0, subsample_for_bin=200000, subsample_freq=0), fold=10, round=4, n_iter=10, custom_grid=None, optimize=R2, choose_better=False, verbose=True)
+2020-09-01 06:10:38,824:INFO:Checking exceptions
+2020-09-01 06:10:38,827:INFO:Preloading libraries
+2020-09-01 06:10:38,828:INFO:Preparing display monitor
+2020-09-01 06:10:38,903:INFO:Copying training dataset
+2020-09-01 06:10:38,906:INFO:Creating estimator clone to inherit model parameters
+2020-09-01 06:10:38,908:INFO:Importing libraries
+2020-09-01 06:10:38,911:INFO:Checking base model
+2020-09-01 06:10:38,913:INFO:Base model : Light Gradient Boosting Machine
+2020-09-01 06:10:38,915:INFO:Defining folds
+2020-09-01 06:10:38,916:INFO:Declaring metric variables
+2020-09-01 06:10:38,943:INFO:Defining Hyperparameters
+2020-09-01 06:10:38,945:INFO:Initializing RandomizedSearchCV
+2020-09-01 06:10:44,618:INFO:Random search completed
+2020-09-01 06:10:44,651:INFO:Initializing Fold 1
+2020-09-01 06:10:44,675:INFO:Fitting Model
+2020-09-01 06:10:44,884:INFO:Evaluating Metrics
+2020-09-01 06:10:44,902:INFO:Compiling Metrics
+2020-09-01 06:10:44,995:INFO:Initializing Fold 2
+2020-09-01 06:10:45,031:INFO:Fitting Model
+2020-09-01 06:10:45,252:INFO:Evaluating Metrics
+2020-09-01 06:10:45,266:INFO:Compiling Metrics
+2020-09-01 06:10:45,355:INFO:Initializing Fold 3
+2020-09-01 06:10:45,378:INFO:Fitting Model
+2020-09-01 06:10:45,604:INFO:Evaluating Metrics
+2020-09-01 06:10:45,620:INFO:Compiling Metrics
+2020-09-01 06:10:45,744:INFO:Initializing Fold 4
+2020-09-01 06:10:45,774:INFO:Fitting Model
+2020-09-01 06:10:46,087:INFO:Evaluating Metrics
+2020-09-01 06:10:46,103:INFO:Compiling Metrics
+2020-09-01 06:10:46,196:INFO:Initializing Fold 5
+2020-09-01 06:10:46,226:INFO:Fitting Model
+2020-09-01 06:10:46,477:INFO:Evaluating Metrics
+2020-09-01 06:10:46,490:INFO:Compiling Metrics
+2020-09-01 06:10:46,563:INFO:Initializing Fold 6
+2020-09-01 06:10:46,585:INFO:Fitting Model
+2020-09-01 06:10:46,803:INFO:Evaluating Metrics
+2020-09-01 06:10:46,818:INFO:Compiling Metrics
+2020-09-01 06:10:46,889:INFO:Initializing Fold 7
+2020-09-01 06:10:46,912:INFO:Fitting Model
+2020-09-01 06:10:47,141:INFO:Evaluating Metrics
+2020-09-01 06:10:47,155:INFO:Compiling Metrics
+2020-09-01 06:10:47,234:INFO:Initializing Fold 8
+2020-09-01 06:10:47,256:INFO:Fitting Model
+2020-09-01 06:10:47,457:INFO:Evaluating Metrics
+2020-09-01 06:10:47,472:INFO:Compiling Metrics
+2020-09-01 06:10:47,565:INFO:Initializing Fold 9
+2020-09-01 06:10:47,593:INFO:Fitting Model
+2020-09-01 06:10:47,857:INFO:Evaluating Metrics
+2020-09-01 06:10:47,874:INFO:Compiling Metrics
+2020-09-01 06:10:47,967:INFO:Initializing Fold 10
+2020-09-01 06:10:47,993:INFO:Fitting Model
+2020-09-01 06:10:48,236:INFO:Evaluating Metrics
+2020-09-01 06:10:48,252:INFO:Compiling Metrics
+2020-09-01 06:10:48,353:INFO:Calculating mean and std
+2020-09-01 06:10:48,358:INFO:Creating metrics dataframe
+2020-09-01 06:10:48,397:INFO:Finalizing model
+2020-09-01 06:10:48,682:INFO:Uploading results into container
+2020-09-01 06:10:48,685:INFO:Uploading model into container
+2020-09-01 06:10:48,783:INFO:create_model_container: 4
+2020-09-01 06:10:48,784:INFO:master_model_container: 4
+2020-09-01 06:10:48,786:INFO:display_container: 6
+2020-09-01 06:10:48,791:INFO:LGBMRegressor(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+              importance_type='split', learning_rate=0.2, max_depth=70,
+              min_child_samples=20, min_child_weight=0.001, min_split_gain=0.1,
+              n_estimators=150, n_jobs=-1, num_leaves=50, objective=None,
+              random_state=6621, reg_alpha=0.4, reg_lambda=0.3, silent=True,
+              subsample=1.0, subsample_for_bin=200000, subsample_freq=0)
+2020-09-01 06:10:48,794:INFO:tune_model() succesfully completed......................................
+2020-09-01 06:11:06,205:INFO:Initializing plot_model()
+2020-09-01 06:11:06,207:INFO:plot_model(estimator=LGBMRegressor(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+              importance_type='split', learning_rate=0.2, max_depth=70,
+              min_child_samples=20, min_child_weight=0.001, min_split_gain=0.1,
+              n_estimators=150, n_jobs=-1, num_leaves=50, objective=None,
+              random_state=6621, reg_alpha=0.4, reg_lambda=0.3, silent=True,
+              subsample=1.0, subsample_for_bin=200000, subsample_freq=0), plot=parameter, save=False, verbose=True, system=True)
+2020-09-01 06:11:06,208:INFO:Checking exceptions
+2020-09-01 06:11:06,210:INFO:Preloading libraries
+2020-09-01 06:11:06,211:INFO:Preparing display monitor
+2020-09-01 06:11:06,227:INFO:Importing libraries
+2020-09-01 06:11:06,230:INFO:plot type: parameter
+2020-09-01 06:11:06,253:INFO:Visual Rendered Successfully
+2020-09-01 06:11:06,254:INFO:plot_model() succesfully completed......................................
+2020-09-01 06:12:17,608:INFO:Initializing interpret_model()
+2020-09-01 06:12:17,610:INFO:interpret_model(estimator=LGBMRegressor(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+              importance_type='split', learning_rate=0.2, max_depth=70,
+              min_child_samples=20, min_child_weight=0.001, min_split_gain=0.1,
+              n_estimators=150, n_jobs=-1, num_leaves=50, objective=None,
+              random_state=6621, reg_alpha=0.4, reg_lambda=0.3, silent=True,
+              subsample=1.0, subsample_for_bin=200000, subsample_freq=0), plot=summary, feature=None, observation=None)
+2020-09-01 06:12:17,611:INFO:Checking exceptions
+2020-09-01 06:12:17,615:INFO:Importing libraries
+2020-09-01 06:12:17,616:INFO:plot type: summary
+2020-09-01 06:12:17,618:INFO:Creating TreeExplainer
+2020-09-01 06:12:18,157:INFO:Compiling shap values
+2020-09-01 06:12:26,578:INFO:Visual Rendered Successfully
+2020-09-01 06:12:26,580:INFO:interpret_model() succesfully completed......................................
+2020-09-01 06:13:23,074:INFO:Initializing plot_model()
+2020-09-01 06:13:23,076:INFO:plot_model(estimator=LGBMRegressor(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+              importance_type='split', learning_rate=0.2, max_depth=70,
+              min_child_samples=20, min_child_weight=0.001, min_split_gain=0.1,
+              n_estimators=150, n_jobs=-1, num_leaves=50, objective=None,
+              random_state=6621, reg_alpha=0.4, reg_lambda=0.3, silent=True,
+              subsample=1.0, subsample_for_bin=200000, subsample_freq=0), plot=parameter, save=False, verbose=True, system=True)
+2020-09-01 06:13:23,078:INFO:Checking exceptions
+2020-09-01 06:13:23,080:INFO:Preloading libraries
+2020-09-01 06:13:23,081:INFO:Preparing display monitor
+2020-09-01 06:13:23,101:INFO:Importing libraries
+2020-09-01 06:13:23,105:INFO:plot type: parameter
+2020-09-01 06:13:23,135:INFO:Visual Rendered Successfully
+2020-09-01 06:13:23,136:INFO:plot_model() succesfully completed......................................
+2020-09-01 06:13:46,323:INFO:Initializing plot_model()
+2020-09-01 06:13:46,326:INFO:plot_model(estimator=LGBMRegressor(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+              importance_type='split', learning_rate=0.1, max_depth=-1,
+              min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+              n_estimators=100, n_jobs=-1, num_leaves=31, objective=None,
+              random_state=6621, reg_alpha=0.0, reg_lambda=0.0, silent=True,
+              subsample=1.0, subsample_for_bin=200000, subsample_freq=0), plot=parameter, save=False, verbose=True, system=True)
+2020-09-01 06:13:46,328:INFO:Checking exceptions
+2020-09-01 06:13:46,330:INFO:Preloading libraries
+2020-09-01 06:13:46,333:INFO:Preparing display monitor
+2020-09-01 06:13:46,352:INFO:Importing libraries
+2020-09-01 06:13:46,357:INFO:plot type: parameter
+2020-09-01 06:13:46,388:INFO:Visual Rendered Successfully
+2020-09-01 06:13:46,390:INFO:plot_model() succesfully completed......................................
+2020-09-01 06:14:00,656:INFO:Initializing create_model()
+2020-09-01 06:14:00,660:INFO:create_model(estimator=dt, ensemble=False, method=None, fold=10, round=4, cross_validation=True, verbose=True, system=True)
+2020-09-01 06:14:00,662:INFO:Checking exceptions
+2020-09-01 06:14:00,663:INFO:Preloading libraries
+2020-09-01 06:14:00,665:INFO:Preparing display monitor
+2020-09-01 06:14:00,752:INFO:Copying training dataset
+2020-09-01 06:14:00,755:INFO:Importing libraries
+2020-09-01 06:14:00,759:INFO:Defining folds
+2020-09-01 06:14:00,762:INFO:Declaring metric variables
+2020-09-01 06:14:00,787:INFO:Decision Tree Imported succesfully
+2020-09-01 06:14:00,791:INFO:Checking ensemble method
+2020-09-01 06:14:00,817:INFO:Initializing Fold 1
+2020-09-01 06:14:00,852:INFO:Fitting Model
+2020-09-01 06:14:00,883:INFO:Evaluating Metrics
+2020-09-01 06:14:00,891:INFO:No inverse transformation
+2020-09-01 06:14:00,893:INFO:Compiling Metrics
+2020-09-01 06:14:00,984:INFO:Initializing Fold 2
+2020-09-01 06:14:01,015:INFO:Fitting Model
+2020-09-01 06:14:01,041:INFO:Evaluating Metrics
+2020-09-01 06:14:01,048:INFO:No inverse transformation
+2020-09-01 06:14:01,050:INFO:Compiling Metrics
+2020-09-01 06:14:01,147:INFO:Initializing Fold 3
+2020-09-01 06:14:01,176:INFO:Fitting Model
+2020-09-01 06:14:01,205:INFO:Evaluating Metrics
+2020-09-01 06:14:01,213:INFO:No inverse transformation
+2020-09-01 06:14:01,215:INFO:Compiling Metrics
+2020-09-01 06:14:01,307:INFO:Initializing Fold 4
+2020-09-01 06:14:01,336:INFO:Fitting Model
+2020-09-01 06:14:01,366:INFO:Evaluating Metrics
+2020-09-01 06:14:01,374:INFO:No inverse transformation
+2020-09-01 06:14:01,377:INFO:Compiling Metrics
+2020-09-01 06:14:01,464:INFO:Initializing Fold 5
+2020-09-01 06:14:01,492:INFO:Fitting Model
+2020-09-01 06:14:01,515:INFO:Evaluating Metrics
+2020-09-01 06:14:01,520:INFO:No inverse transformation
+2020-09-01 06:14:01,521:INFO:Compiling Metrics
+2020-09-01 06:14:01,608:INFO:Initializing Fold 6
+2020-09-01 06:14:01,630:INFO:Fitting Model
+2020-09-01 06:14:01,652:INFO:Evaluating Metrics
+2020-09-01 06:14:01,658:INFO:No inverse transformation
+2020-09-01 06:14:01,659:INFO:Compiling Metrics
+2020-09-01 06:14:01,732:INFO:Initializing Fold 7
+2020-09-01 06:14:01,757:INFO:Fitting Model
+2020-09-01 06:14:01,781:INFO:Evaluating Metrics
+2020-09-01 06:14:01,786:INFO:No inverse transformation
+2020-09-01 06:14:01,787:INFO:Compiling Metrics
+2020-09-01 06:14:01,861:INFO:Initializing Fold 8
+2020-09-01 06:14:01,883:INFO:Fitting Model
+2020-09-01 06:14:01,905:INFO:Evaluating Metrics
+2020-09-01 06:14:01,909:INFO:No inverse transformation
+2020-09-01 06:14:01,910:INFO:Compiling Metrics
+2020-09-01 06:14:02,015:INFO:Initializing Fold 9
+2020-09-01 06:14:02,043:INFO:Fitting Model
+2020-09-01 06:14:02,076:INFO:Evaluating Metrics
+2020-09-01 06:14:02,084:INFO:No inverse transformation
+2020-09-01 06:14:02,086:INFO:Compiling Metrics
+2020-09-01 06:14:02,198:INFO:Initializing Fold 10
+2020-09-01 06:14:02,227:INFO:Fitting Model
+2020-09-01 06:14:02,253:INFO:Evaluating Metrics
+2020-09-01 06:14:02,259:INFO:No inverse transformation
+2020-09-01 06:14:02,260:INFO:Compiling Metrics
+2020-09-01 06:14:02,330:INFO:Calculating mean and std
+2020-09-01 06:14:02,334:INFO:Creating metrics dataframe
+2020-09-01 06:14:02,363:INFO:Finalizing model
+2020-09-01 06:14:02,391:INFO:Uploading results into container
+2020-09-01 06:14:02,393:INFO:Uploading model into container
+2020-09-01 06:14:02,468:INFO:create_model_container: 5
+2020-09-01 06:14:02,470:INFO:master_model_container: 5
+2020-09-01 06:14:02,471:INFO:display_container: 8
+2020-09-01 06:14:02,473:INFO:DecisionTreeRegressor(ccp_alpha=0.0, criterion='mse', max_depth=None,
+                      max_features=None, max_leaf_nodes=None,
+                      min_impurity_decrease=0.0, min_impurity_split=None,
+                      min_samples_leaf=1, min_samples_split=2,
+                      min_weight_fraction_leaf=0.0, presort='deprecated',
+                      random_state=6621, splitter='best')
+2020-09-01 06:14:02,474:INFO:create_model() succesfully completed......................................
+2020-09-01 06:14:14,326:INFO:Initializing create_model()
+2020-09-01 06:14:14,328:INFO:create_model(estimator=dt, ensemble=False, method=None, fold=10, round=4, cross_validation=True, verbose=True, system=True)
+2020-09-01 06:14:14,330:INFO:Checking exceptions
+2020-09-01 06:14:14,331:INFO:Preloading libraries
+2020-09-01 06:14:14,333:INFO:Preparing display monitor
+2020-09-01 06:14:14,404:INFO:Copying training dataset
+2020-09-01 06:14:14,407:INFO:Importing libraries
+2020-09-01 06:14:14,409:INFO:Defining folds
+2020-09-01 06:14:14,410:INFO:Declaring metric variables
+2020-09-01 06:14:14,433:INFO:Decision Tree Imported succesfully
+2020-09-01 06:14:14,436:INFO:Checking ensemble method
+2020-09-01 06:14:14,457:INFO:Initializing Fold 1
+2020-09-01 06:14:14,479:INFO:Fitting Model
+2020-09-01 06:14:14,501:INFO:Evaluating Metrics
+2020-09-01 06:14:14,507:INFO:No inverse transformation
+2020-09-01 06:14:14,509:INFO:Compiling Metrics
+2020-09-01 06:14:14,585:INFO:Initializing Fold 2
+2020-09-01 06:14:14,618:INFO:Fitting Model
+2020-09-01 06:14:14,649:INFO:Evaluating Metrics
+2020-09-01 06:14:14,656:INFO:No inverse transformation
+2020-09-01 06:14:14,658:INFO:Compiling Metrics
+2020-09-01 06:14:14,739:INFO:Initializing Fold 3
+2020-09-01 06:14:14,765:INFO:Fitting Model
+2020-09-01 06:14:14,792:INFO:Evaluating Metrics
+2020-09-01 06:14:14,799:INFO:No inverse transformation
+2020-09-01 06:14:14,801:INFO:Compiling Metrics
+2020-09-01 06:14:14,886:INFO:Initializing Fold 4
+2020-09-01 06:14:14,909:INFO:Fitting Model
+2020-09-01 06:14:14,936:INFO:Evaluating Metrics
+2020-09-01 06:14:14,943:INFO:No inverse transformation
+2020-09-01 06:14:14,945:INFO:Compiling Metrics
+2020-09-01 06:14:15,034:INFO:Initializing Fold 5
+2020-09-01 06:14:15,057:INFO:Fitting Model
+2020-09-01 06:14:15,081:INFO:Evaluating Metrics
+2020-09-01 06:14:15,086:INFO:No inverse transformation
+2020-09-01 06:14:15,088:INFO:Compiling Metrics
+2020-09-01 06:14:15,162:INFO:Initializing Fold 6
+2020-09-01 06:14:15,186:INFO:Fitting Model
+2020-09-01 06:14:15,210:INFO:Evaluating Metrics
+2020-09-01 06:14:15,216:INFO:No inverse transformation
+2020-09-01 06:14:15,217:INFO:Compiling Metrics
+2020-09-01 06:14:15,310:INFO:Initializing Fold 7
+2020-09-01 06:14:15,346:INFO:Fitting Model
+2020-09-01 06:14:15,378:INFO:Evaluating Metrics
+2020-09-01 06:14:15,390:INFO:No inverse transformation
+2020-09-01 06:14:15,392:INFO:Compiling Metrics
+2020-09-01 06:14:15,495:INFO:Initializing Fold 8
+2020-09-01 06:14:15,525:INFO:Fitting Model
+2020-09-01 06:14:15,557:INFO:Evaluating Metrics
+2020-09-01 06:14:15,566:INFO:No inverse transformation
+2020-09-01 06:14:15,570:INFO:Compiling Metrics
+2020-09-01 06:14:15,678:INFO:Initializing Fold 9
+2020-09-01 06:14:15,711:INFO:Fitting Model
+2020-09-01 06:14:15,742:INFO:Evaluating Metrics
+2020-09-01 06:14:15,751:INFO:No inverse transformation
+2020-09-01 06:14:15,752:INFO:Compiling Metrics
+2020-09-01 06:14:15,950:INFO:Initializing Fold 10
+2020-09-01 06:14:15,977:INFO:Fitting Model
+2020-09-01 06:14:16,010:INFO:Evaluating Metrics
+2020-09-01 06:14:16,017:INFO:No inverse transformation
+2020-09-01 06:14:16,021:INFO:Compiling Metrics
+2020-09-01 06:14:16,124:INFO:Calculating mean and std
+2020-09-01 06:14:16,128:INFO:Creating metrics dataframe
+2020-09-01 06:14:16,169:INFO:Finalizing model
+2020-09-01 06:14:16,209:INFO:Uploading results into container
+2020-09-01 06:14:16,211:INFO:Uploading model into container
+2020-09-01 06:14:16,280:INFO:create_model_container: 6
+2020-09-01 06:14:16,282:INFO:master_model_container: 6
+2020-09-01 06:14:16,283:INFO:display_container: 9
+2020-09-01 06:14:16,286:INFO:DecisionTreeRegressor(ccp_alpha=0.0, criterion='mse', max_depth=None,
+                      max_features=None, max_leaf_nodes=None,
+                      min_impurity_decrease=0.0, min_impurity_split=None,
+                      min_samples_leaf=1, min_samples_split=2,
+                      min_weight_fraction_leaf=0.0, presort='deprecated',
+                      random_state=6621, splitter='best')
+2020-09-01 06:14:16,288:INFO:create_model() succesfully completed......................................
+2020-09-01 06:14:20,712:INFO:Initializing tune_model()
+2020-09-01 06:14:20,715:INFO:tune_model(estimator=DecisionTreeRegressor(ccp_alpha=0.0, criterion='mse', max_depth=None,
+                      max_features=None, max_leaf_nodes=None,
+                      min_impurity_decrease=0.0, min_impurity_split=None,
+                      min_samples_leaf=1, min_samples_split=2,
+                      min_weight_fraction_leaf=0.0, presort='deprecated',
+                      random_state=6621, splitter='best'), fold=10, round=4, n_iter=10, custom_grid=None, optimize=R2, choose_better=False, verbose=True)
+2020-09-01 06:14:20,717:INFO:Checking exceptions
+2020-09-01 06:14:20,718:INFO:Preloading libraries
+2020-09-01 06:14:20,722:INFO:Preparing display monitor
+2020-09-01 06:14:20,836:INFO:Copying training dataset
+2020-09-01 06:14:20,841:INFO:Creating estimator clone to inherit model parameters
+2020-09-01 06:14:20,848:INFO:Importing libraries
+2020-09-01 06:14:20,852:INFO:Checking base model
+2020-09-01 06:14:20,855:INFO:Base model : Decision Tree
+2020-09-01 06:14:20,858:INFO:Defining folds
+2020-09-01 06:14:20,860:INFO:Declaring metric variables
+2020-09-01 06:14:20,885:INFO:Defining Hyperparameters
+2020-09-01 06:14:20,887:INFO:Initializing RandomizedSearchCV
+2020-09-01 06:14:24,446:INFO:Random search completed
+2020-09-01 06:14:24,477:INFO:Initializing Fold 1
+2020-09-01 06:14:24,509:INFO:Fitting Model
+2020-09-01 06:14:25,478:INFO:Evaluating Metrics
+2020-09-01 06:14:25,483:INFO:Compiling Metrics
+2020-09-01 06:14:25,573:INFO:Initializing Fold 2
+2020-09-01 06:14:25,598:INFO:Fitting Model
+2020-09-01 06:14:26,394:INFO:Evaluating Metrics
+2020-09-01 06:14:26,401:INFO:Compiling Metrics
+2020-09-01 06:14:26,517:INFO:Initializing Fold 3
+2020-09-01 06:14:26,560:INFO:Fitting Model
+2020-09-01 06:14:27,528:INFO:Evaluating Metrics
+2020-09-01 06:14:27,538:INFO:Compiling Metrics
+2020-09-01 06:14:27,658:INFO:Initializing Fold 4
+2020-09-01 06:14:27,694:INFO:Fitting Model
+2020-09-01 06:14:28,563:INFO:Evaluating Metrics
+2020-09-01 06:14:28,569:INFO:Compiling Metrics
+2020-09-01 06:14:28,685:INFO:Initializing Fold 5
+2020-09-01 06:14:28,724:INFO:Fitting Model
+2020-09-01 06:14:29,439:INFO:Evaluating Metrics
+2020-09-01 06:14:29,449:INFO:Compiling Metrics
+2020-09-01 06:14:29,525:INFO:Initializing Fold 6
+2020-09-01 06:14:29,549:INFO:Fitting Model
+2020-09-01 06:14:30,292:INFO:Evaluating Metrics
+2020-09-01 06:14:30,299:INFO:Compiling Metrics
+2020-09-01 06:14:30,403:INFO:Initializing Fold 7
+2020-09-01 06:14:30,435:INFO:Fitting Model
+2020-09-01 06:14:31,114:INFO:Evaluating Metrics
+2020-09-01 06:14:31,119:INFO:Compiling Metrics
+2020-09-01 06:14:31,201:INFO:Initializing Fold 8
+2020-09-01 06:14:31,224:INFO:Fitting Model
+2020-09-01 06:14:32,005:INFO:Evaluating Metrics
+2020-09-01 06:14:32,010:INFO:Compiling Metrics
+2020-09-01 06:14:32,099:INFO:Initializing Fold 9
+2020-09-01 06:14:32,124:INFO:Fitting Model
+2020-09-01 06:14:32,855:INFO:Evaluating Metrics
+2020-09-01 06:14:32,864:INFO:Compiling Metrics
+2020-09-01 06:14:32,940:INFO:Initializing Fold 10
+2020-09-01 06:14:32,964:INFO:Fitting Model
+2020-09-01 06:14:33,759:INFO:Evaluating Metrics
+2020-09-01 06:14:33,765:INFO:Compiling Metrics
+2020-09-01 06:14:33,847:INFO:Calculating mean and std
+2020-09-01 06:14:33,851:INFO:Creating metrics dataframe
+2020-09-01 06:14:33,875:INFO:Finalizing model
+2020-09-01 06:14:34,718:INFO:Uploading results into container
+2020-09-01 06:14:34,720:INFO:Uploading model into container
+2020-09-01 06:14:34,824:INFO:create_model_container: 7
+2020-09-01 06:14:34,826:INFO:master_model_container: 7
+2020-09-01 06:14:34,829:INFO:display_container: 10
+2020-09-01 06:14:34,834:INFO:DecisionTreeRegressor(ccp_alpha=0.0, criterion='mae', max_depth=16,
+                      max_features=27, max_leaf_nodes=None,
+                      min_impurity_decrease=0.0, min_impurity_split=None,
+                      min_samples_leaf=2, min_samples_split=2,
+                      min_weight_fraction_leaf=0.0, presort='deprecated',
+                      random_state=6621, splitter='best')
+2020-09-01 06:14:34,836:INFO:tune_model() succesfully completed......................................
+2020-09-01 06:14:41,231:INFO:Initializing interpret_model()
+2020-09-01 06:14:41,233:INFO:interpret_model(estimator=DecisionTreeRegressor(ccp_alpha=0.0, criterion='mae', max_depth=16,
+                      max_features=27, max_leaf_nodes=None,
+                      min_impurity_decrease=0.0, min_impurity_split=None,
+                      min_samples_leaf=2, min_samples_split=2,
+                      min_weight_fraction_leaf=0.0, presort='deprecated',
+                      random_state=6621, splitter='best'), plot=summary, feature=None, observation=None)
+2020-09-01 06:14:41,235:INFO:Checking exceptions
+2020-09-01 06:14:41,238:INFO:Importing libraries
+2020-09-01 06:14:41,239:INFO:plot type: summary
+2020-09-01 06:14:41,240:INFO:Creating TreeExplainer
+2020-09-01 06:14:41,244:INFO:Compiling shap values
+2020-09-01 06:14:44,400:INFO:Visual Rendered Successfully
+2020-09-01 06:14:44,401:INFO:interpret_model() succesfully completed......................................
+2020-09-01 06:15:16,719:INFO:Initializing plot_model()
+2020-09-01 06:15:16,722:INFO:plot_model(estimator=DecisionTreeRegressor(ccp_alpha=0.0, criterion='mse', max_depth=None,
+                      max_features=None, max_leaf_nodes=None,
+                      min_impurity_decrease=0.0, min_impurity_split=None,
+                      min_samples_leaf=1, min_samples_split=2,
+                      min_weight_fraction_leaf=0.0, presort='deprecated',
+                      random_state=6621, splitter='best'), plot=parameter, save=False, verbose=True, system=True)
+2020-09-01 06:15:16,723:INFO:Checking exceptions
+2020-09-01 06:15:16,725:INFO:Preloading libraries
+2020-09-01 06:15:16,727:INFO:Preparing display monitor
+2020-09-01 06:15:16,755:INFO:Importing libraries
+2020-09-01 06:15:16,758:INFO:plot type: parameter
+2020-09-01 06:15:16,786:INFO:Visual Rendered Successfully
+2020-09-01 06:15:16,788:INFO:plot_model() succesfully completed......................................
+2020-09-01 06:15:31,445:INFO:Initializing plot_model()
+2020-09-01 06:15:31,454:INFO:plot_model(estimator=DecisionTreeRegressor(ccp_alpha=0.0, criterion='mae', max_depth=16,
+                      max_features=27, max_leaf_nodes=None,
+                      min_impurity_decrease=0.0, min_impurity_split=None,
+                      min_samples_leaf=2, min_samples_split=2,
+                      min_weight_fraction_leaf=0.0, presort='deprecated',
+                      random_state=6621, splitter='best'), plot=parameter, save=False, verbose=True, system=True)
+2020-09-01 06:15:31,457:INFO:Checking exceptions
+2020-09-01 06:15:31,460:INFO:Preloading libraries
+2020-09-01 06:15:31,464:INFO:Preparing display monitor
+2020-09-01 06:15:31,478:INFO:Importing libraries
+2020-09-01 06:15:31,481:INFO:plot type: parameter
+2020-09-01 06:15:31,507:INFO:Visual Rendered Successfully
+2020-09-01 06:15:31,508:INFO:plot_model() succesfully completed......................................
+2020-09-01 06:16:31,212:INFO:Initializing plot_model()
+2020-09-01 06:16:31,215:INFO:plot_model(estimator=DecisionTreeRegressor(ccp_alpha=0.0, criterion='mae', max_depth=16,
+                      max_features=27, max_leaf_nodes=None,
+                      min_impurity_decrease=0.0, min_impurity_split=None,
+                      min_samples_leaf=2, min_samples_split=2,
+                      min_weight_fraction_leaf=0.0, presort='deprecated',
+                      random_state=6621, splitter='best'), plot=parameter, save=False, verbose=True, system=True)
+2020-09-01 06:16:31,216:INFO:Checking exceptions
+2020-09-01 06:16:31,218:INFO:Preloading libraries
+2020-09-01 06:16:31,220:INFO:Preparing display monitor
+2020-09-01 06:16:31,234:INFO:Importing libraries
+2020-09-01 06:16:31,237:INFO:plot type: parameter
+2020-09-01 06:16:31,258:INFO:Visual Rendered Successfully
+2020-09-01 06:16:31,260:INFO:plot_model() succesfully completed......................................
+2020-09-01 06:16:45,585:INFO:Initializing plot_model()
+2020-09-01 06:16:45,588:INFO:plot_model(estimator=DecisionTreeRegressor(ccp_alpha=0.0, criterion='mae', max_depth=16,
+                      max_features=27, max_leaf_nodes=None,
+                      min_impurity_decrease=0.0, min_impurity_split=None,
+                      min_samples_leaf=2, min_samples_split=2,
+                      min_weight_fraction_leaf=0.0, presort='deprecated',
+                      random_state=6621, splitter='best'), plot=feature, save=False, verbose=True, system=True)
+2020-09-01 06:16:45,590:INFO:Checking exceptions
+2020-09-01 06:16:45,594:INFO:Preloading libraries
+2020-09-01 06:16:45,596:INFO:Preparing display monitor
+2020-09-01 06:16:45,610:INFO:Importing libraries
+2020-09-01 06:16:45,613:INFO:plot type: feature
+2020-09-01 06:16:46,008:INFO:Visual Rendered Successfully
+2020-09-01 06:16:46,009:INFO:plot_model() succesfully completed......................................
+2020-09-01 06:17:02,943:INFO:Initializing tune_model()
+2020-09-01 06:17:02,945:INFO:tune_model(estimator=<catboost.core.CatBoostRegressor object at 0x7f2a5b809f28>, fold=10, round=4, n_iter=10, custom_grid=None, optimize=R2, choose_better=False, verbose=True)
+2020-09-01 06:17:02,946:INFO:Checking exceptions
+2020-09-01 06:17:02,947:INFO:Preloading libraries
+2020-09-01 06:17:02,949:INFO:Preparing display monitor
+2020-09-01 06:17:03,018:INFO:Copying training dataset
+2020-09-01 06:17:03,021:INFO:Creating estimator clone to inherit model parameters
+2020-09-01 06:17:03,023:INFO:Importing libraries
+2020-09-01 06:17:03,025:INFO:Checking base model
+2020-09-01 06:17:03,026:INFO:Base model : CatBoost Regressor
+2020-09-01 06:17:03,028:INFO:Defining folds
+2020-09-01 06:17:03,030:INFO:Declaring metric variables
+2020-09-01 06:17:03,050:INFO:Defining Hyperparameters
+2020-09-01 06:17:03,052:INFO:Initializing RandomizedSearchCV
+2020-09-01 06:17:30,951:INFO:Random search completed
+2020-09-01 06:17:30,976:INFO:Initializing Fold 1
+2020-09-01 06:17:31,000:INFO:Fitting Model
+2020-09-01 06:17:31,195:INFO:Evaluating Metrics
+2020-09-01 06:17:31,203:INFO:Compiling Metrics
+2020-09-01 06:17:31,280:INFO:Initializing Fold 2
+2020-09-01 06:17:31,305:INFO:Fitting Model
+2020-09-01 06:17:31,527:INFO:Evaluating Metrics
+2020-09-01 06:17:31,536:INFO:Compiling Metrics
+2020-09-01 06:17:31,629:INFO:Initializing Fold 3
+2020-09-01 06:17:31,652:INFO:Fitting Model
+2020-09-01 06:17:31,877:INFO:Evaluating Metrics
+2020-09-01 06:17:31,888:INFO:Compiling Metrics
+2020-09-01 06:17:31,986:INFO:Initializing Fold 4
+2020-09-01 06:17:32,015:INFO:Fitting Model
+2020-09-01 06:17:32,172:INFO:Evaluating Metrics
+2020-09-01 06:17:32,178:INFO:Compiling Metrics
+2020-09-01 06:17:32,248:INFO:Initializing Fold 5
+2020-09-01 06:17:32,270:INFO:Fitting Model
+2020-09-01 06:17:32,420:INFO:Evaluating Metrics
+2020-09-01 06:17:32,426:INFO:Compiling Metrics
+2020-09-01 06:17:32,505:INFO:Initializing Fold 6
+2020-09-01 06:17:32,533:INFO:Fitting Model
+2020-09-01 06:17:32,746:INFO:Evaluating Metrics
+2020-09-01 06:17:32,752:INFO:Compiling Metrics
+2020-09-01 06:17:32,829:INFO:Initializing Fold 7
+2020-09-01 06:17:32,853:INFO:Fitting Model
+2020-09-01 06:17:32,993:INFO:Evaluating Metrics
+2020-09-01 06:17:32,999:INFO:Compiling Metrics
+2020-09-01 06:17:33,106:INFO:Initializing Fold 8
+2020-09-01 06:17:33,139:INFO:Fitting Model
+2020-09-01 06:17:33,399:INFO:Evaluating Metrics
+2020-09-01 06:17:33,415:INFO:Compiling Metrics
+2020-09-01 06:17:33,521:INFO:Initializing Fold 9
+2020-09-01 06:17:33,549:INFO:Fitting Model
+2020-09-01 06:17:33,748:INFO:Evaluating Metrics
+2020-09-01 06:17:33,754:INFO:Compiling Metrics
+2020-09-01 06:17:33,829:INFO:Initializing Fold 10
+2020-09-01 06:17:33,851:INFO:Fitting Model
+2020-09-01 06:17:34,028:INFO:Evaluating Metrics
+2020-09-01 06:17:34,034:INFO:Compiling Metrics
+2020-09-01 06:17:34,125:INFO:Calculating mean and std
+2020-09-01 06:17:34,129:INFO:Creating metrics dataframe
+2020-09-01 06:17:34,154:INFO:Finalizing model
+2020-09-01 06:17:34,299:INFO:Uploading results into container
+2020-09-01 06:17:34,300:INFO:Uploading model into container
+2020-09-01 06:17:34,363:INFO:create_model_container: 8
+2020-09-01 06:17:34,364:INFO:master_model_container: 8
+2020-09-01 06:17:34,365:INFO:display_container: 13
+2020-09-01 06:17:34,367:INFO:<catboost.core.CatBoostRegressor object at 0x7f2a5ace5470>
+2020-09-01 06:17:34,368:INFO:tune_model() succesfully completed......................................
+2020-09-01 06:17:43,905:INFO:Initializing plot_model()
+2020-09-01 06:17:43,906:INFO:plot_model(estimator=<catboost.core.CatBoostRegressor object at 0x7f2a5ace5470>, plot=feature, save=False, verbose=True, system=True)
+2020-09-01 06:17:43,907:INFO:Checking exceptions
+2020-09-01 06:18:27,719:INFO:Initializing interpret_model()
+2020-09-01 06:18:27,721:INFO:interpret_model(estimator=<catboost.core.CatBoostRegressor object at 0x7f2a5ace5470>, plot=summary, feature=None, observation=None)
+2020-09-01 06:18:27,723:INFO:Checking exceptions
+2020-09-01 06:18:27,724:INFO:Importing libraries
+2020-09-01 06:18:27,725:INFO:plot type: summary
+2020-09-01 06:18:27,726:INFO:Creating TreeExplainer
+2020-09-01 06:18:27,728:INFO:Compiling shap values
+2020-09-01 06:18:29,099:INFO:Visual Rendered Successfully
+2020-09-01 06:18:29,100:INFO:interpret_model() succesfully completed......................................
+2020-09-01 06:19:08,599:INFO:Initializing finalize_model()
+2020-09-01 06:19:08,601:INFO:finalize_model(estimator=<catboost.core.CatBoostRegressor object at 0x7f2a5ace5470>)
+2020-09-01 06:19:08,603:INFO:Importing libraries
+2020-09-01 06:19:08,605:INFO:Getting model name
+2020-09-01 06:19:08,608:INFO:Finalizing CatBoost Regressor
+2020-09-01 06:19:08,853:INFO:Initializing create_model()
+2020-09-01 06:19:08,856:INFO:create_model(estimator=<catboost.core.CatBoostRegressor object at 0x7f2a5ace5470>, ensemble=False, method=None, fold=10, round=4, cross_validation=True, verbose=False, system=False)
+2020-09-01 06:19:08,858:INFO:Checking exceptions
+2020-09-01 06:19:08,859:INFO:Preloading libraries
+2020-09-01 06:19:08,861:INFO:Preparing display monitor
+2020-09-01 06:19:08,880:INFO:Copying training dataset
+2020-09-01 06:19:08,885:INFO:Importing libraries
+2020-09-01 06:19:08,888:INFO:Defining folds
+2020-09-01 06:19:08,890:INFO:Declaring metric variables
+2020-09-01 06:19:08,892:INFO:Declaring custom model
+2020-09-01 06:19:08,893:INFO:CatBoost Regressor Imported succesfully
+2020-09-01 06:19:08,896:INFO:Checking ensemble method
+2020-09-01 06:19:08,899:INFO:Initializing Fold 1
+2020-09-01 06:19:08,910:INFO:Fitting Model
+2020-09-01 06:19:09,184:INFO:Evaluating Metrics
+2020-09-01 06:19:09,203:INFO:No inverse transformation
+2020-09-01 06:19:09,225:INFO:Compiling Metrics
+2020-09-01 06:19:09,263:INFO:Initializing Fold 2
+2020-09-01 06:19:09,268:INFO:Fitting Model
+2020-09-01 06:19:09,579:INFO:Evaluating Metrics
+2020-09-01 06:19:09,588:INFO:No inverse transformation
+2020-09-01 06:19:09,591:INFO:Compiling Metrics
+2020-09-01 06:19:09,607:INFO:Initializing Fold 3
+2020-09-01 06:19:09,611:INFO:Fitting Model
+2020-09-01 06:19:09,844:INFO:Evaluating Metrics
+2020-09-01 06:19:09,854:INFO:No inverse transformation
+2020-09-01 06:19:09,856:INFO:Compiling Metrics
+2020-09-01 06:19:09,876:INFO:Initializing Fold 4
+2020-09-01 06:19:09,885:INFO:Fitting Model
+2020-09-01 06:19:10,172:INFO:Evaluating Metrics
+2020-09-01 06:19:10,180:INFO:No inverse transformation
+2020-09-01 06:19:10,181:INFO:Compiling Metrics
+2020-09-01 06:19:10,197:INFO:Initializing Fold 5
+2020-09-01 06:19:10,204:INFO:Fitting Model
+2020-09-01 06:19:10,386:INFO:Evaluating Metrics
+2020-09-01 06:19:10,393:INFO:No inverse transformation
+2020-09-01 06:19:10,395:INFO:Compiling Metrics
+2020-09-01 06:19:10,420:INFO:Initializing Fold 6
+2020-09-01 06:19:10,427:INFO:Fitting Model
+2020-09-01 06:19:10,655:INFO:Evaluating Metrics
+2020-09-01 06:19:10,675:INFO:No inverse transformation
+2020-09-01 06:19:10,677:INFO:Compiling Metrics
+2020-09-01 06:19:10,701:INFO:Initializing Fold 7
+2020-09-01 06:19:10,706:INFO:Fitting Model
+2020-09-01 06:19:10,936:INFO:Evaluating Metrics
+2020-09-01 06:19:10,948:INFO:No inverse transformation
+2020-09-01 06:19:10,950:INFO:Compiling Metrics
+2020-09-01 06:19:10,969:INFO:Initializing Fold 8
+2020-09-01 06:19:10,977:INFO:Fitting Model
+2020-09-01 06:19:11,238:INFO:Evaluating Metrics
+2020-09-01 06:19:11,247:INFO:No inverse transformation
+2020-09-01 06:19:11,250:INFO:Compiling Metrics
+2020-09-01 06:19:11,268:INFO:Initializing Fold 9
+2020-09-01 06:19:11,276:INFO:Fitting Model
+2020-09-01 06:19:11,493:INFO:Evaluating Metrics
+2020-09-01 06:19:11,502:INFO:No inverse transformation
+2020-09-01 06:19:11,503:INFO:Compiling Metrics
+2020-09-01 06:19:11,519:INFO:Initializing Fold 10
+2020-09-01 06:19:11,525:INFO:Fitting Model
+2020-09-01 06:19:11,715:INFO:Evaluating Metrics
+2020-09-01 06:19:11,723:INFO:No inverse transformation
+2020-09-01 06:19:11,724:INFO:Compiling Metrics
+2020-09-01 06:19:11,739:INFO:Calculating mean and std
+2020-09-01 06:19:11,744:INFO:Creating metrics dataframe
+2020-09-01 06:19:11,753:INFO:Finalizing model
+2020-09-01 06:19:11,980:INFO:Uploading results into container
+2020-09-01 06:19:11,982:INFO:Uploading model into container
+2020-09-01 06:19:11,985:INFO:create_model_container: 9
+2020-09-01 06:19:11,986:INFO:master_model_container: 9
+2020-09-01 06:19:11,988:INFO:display_container: 15
+2020-09-01 06:19:11,991:INFO:<catboost.core.CatBoostRegressor object at 0x7f2a5ace5470>
+2020-09-01 06:19:11,993:INFO:create_model() succesfully completed......................................
+2020-09-01 06:19:11,994:INFO:create_model_container: 9
+2020-09-01 06:19:11,996:INFO:master_model_container: 9
+2020-09-01 06:19:11,998:INFO:display_container: 15
+2020-09-01 06:19:11,999:INFO:<catboost.core.CatBoostRegressor object at 0x7f2a5839e2b0>
+2020-09-01 06:19:12,004:INFO:finalize_model() succesfully completed......................................
